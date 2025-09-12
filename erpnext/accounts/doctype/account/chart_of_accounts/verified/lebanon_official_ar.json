@@ -1,0 +1,3748 @@
+{
+  "chart_of_accounts": [
+    {
+      "account_name": "الأصول الثابتة",
+      "account_number": "2",
+      "is_group": 1,
+      "root_type": "Asset"
+    },
+    {
+      "account_name": "المخزون و قيد الصنع",
+      "account_number": "3",
+      "is_group": 1,
+      "root_type": "Asset"
+    },
+    {
+      "account_name": "حسابات الذمم",
+      "account_number": "4",
+      "is_group": 1,
+      "root_type": "Liability"
+    },
+    {
+      "account_name": "حسابات الذمم  -  الزبائن",
+      "account_number": "41",
+      "is_group": 1,
+      "root_type": "Asset"
+    },
+    {
+      "account_name": "الرساميل الدائمة",
+      "account_number": "1",
+      "is_group": 1,
+      "root_type": "Equity"
+    },
+    {
+      "account_name": "الحسابات المالية",
+      "account_number": "5",
+      "is_group": 1,
+      "root_type": "Asset"
+    },
+    {
+      "account_name": "الإيرادات",
+      "account_number": "7",
+      "is_group": 1,
+      "root_type": "Income"
+    },
+    {
+      "account_name": "الأعباء",
+      "account_number": "6",
+      "is_group": 1,
+      "root_type": "Expense"
+    },
+    {
+      "account_name": "رأس المال",
+      "account_number": "10",
+      "is_group": 1,
+      "root_type": "Equity",
+      "parent_account": "الرساميل الدائمة"
+    },
+    {
+      "account_name": "رأس المال (للشركة أو للشخص)",
+      "account_number": "101",
+      "is_group": 1,
+      "root_type": "Equity",
+      "parent_account": "رأس المال"
+    },
+    {
+      "account_name": "رأس المال المكتتب غير المستدعى",
+      "account_number": "1011",
+      "is_group": 0,
+      "root_type": "Equity",
+      "parent_account": "رأس المال (للشركة أو للشخص)"
+    },
+    {
+      "account_name": "رأس المال المكتتب، المستدعى غير المدفوع",
+      "account_number": "1012",
+      "is_group": 0,
+      "root_type": "Equity",
+      "parent_account": "رأس المال (للشركة أو للشخص)"
+    },
+    {
+      "account_name": "رأس المال المكتتب، المستدعى والمدفوع",
+      "account_number": "1013",
+      "is_group": 0,
+      "root_type": "Equity",
+      "parent_account": "رأس المال (للشركة أو للشخص)"
+    },
+    {
+      "account_name": "علاوات الإصدار والاندماج والمقدمات",
+      "account_number": "102",
+      "is_group": 1,
+      "root_type": "Equity",
+      "parent_account": "رأس المال"
+    },
+    {
+      "account_name": "علاوات الإصدار",
+      "account_number": "1021",
+      "is_group": 0,
+      "root_type": "Equity",
+      "parent_account": "علاوات الإصدار والاندماج والمقدمات"
+    },
+    {
+      "account_name": "علاوات الاندماج",
+      "account_number": "1022",
+      "is_group": 0,
+      "root_type": "Equity",
+      "parent_account": "علاوات الإصدار والاندماج والمقدمات"
+    },
+    {
+      "account_name": "علاوات المقدمات",
+      "account_number": "1023",
+      "is_group": 0,
+      "root_type": "Equity",
+      "parent_account": "علاوات الإصدار والاندماج والمقدمات"
+    },
+    {
+      "account_name": "علاوات تحويل السندات إلى أسهم",
+      "account_number": "1024",
+      "is_group": 0,
+      "root_type": "Equity",
+      "parent_account": "علاوات الإصدار والاندماج والمقدمات"
+    },
+    {
+      "account_name": "فروقات إعادة التخمين",
+      "account_number": "103",
+      "is_group": 1,
+      "root_type": "Equity",
+      "parent_account": "رأس المال"
+    },
+    {
+      "account_name": "فروقات إعادة تخمين الأصول الثابتة غير القابلة للاستهلاك",
+      "account_number": "1031",
+      "is_group": 0,
+      "root_type": "Equity",
+      "parent_account": "فروقات إعادة التخمين"
+    },
+    {
+      "account_name": "فروقات إعادة تخمين الأصول الثابتة القابلة للاستهلاك",
+      "account_number": "1035",
+      "is_group": 0,
+      "root_type": "Equity",
+      "parent_account": "فروقات إعادة التخمين"
+    },
+    {
+      "account_name": "الحساب الشخصي لصاحب المؤسسة",
+      "account_number": "109",
+      "is_group": 0,
+      "root_type": "Equity",
+      "parent_account": "رأس المال"
+    },
+    {
+      "account_name": "الاحتياطات",
+      "account_number": "11",
+      "is_group": 1,
+      "root_type": "Equity",
+      "parent_account": "الرساميل الدائمة"
+    },
+    {
+      "account_name": "احتياطي قانوني",
+      "account_number": "111",
+      "is_group": 0,
+      "root_type": "Equity",
+      "parent_account": "الاحتياطات"
+    },
+    {
+      "account_name": "احتياطيات نظامية وتعاقدية",
+      "account_number": "112",
+      "is_group": 0,
+      "root_type": "Equity",
+      "parent_account": "الاحتياطات"
+    },
+    {
+      "account_name": "احتياطيات أخرى",
+      "account_number": "119",
+      "is_group": 0,
+      "root_type": "Equity",
+      "parent_account": "الاحتياطات"
+    },
+    {
+      "account_name": "نتائج سابقة مدوّرة",
+      "account_number": "12",
+      "is_group": 1,
+      "root_type": "Equity",
+      "parent_account": "الرساميل الدائمة"
+    },
+    {
+      "account_name": "نتائج سابقة مدوّرة دائنة",
+      "account_number": "121",
+      "is_group": 0,
+      "root_type": "Equity",
+      "parent_account": "نتائج سابقة مدوّرة"
+    },
+    {
+      "account_name": "نتائج سابقة مدوّرة مدينة",
+      "account_number": "125",
+      "is_group": 0,
+      "root_type": "Equity",
+      "parent_account": "نتائج سابقة مدوّرة"
+    },
+    {
+      "account_name": "النتيجة الصافية للدورة المالية (ربح أو خسارة)",
+      "account_number": "13",
+      "is_group": 1,
+      "root_type": "Equity",
+      "parent_account": "الرساميل الدائمة"
+    },
+    {
+      "account_name": "الهامش التجاري القائم",
+      "account_number": "131",
+      "is_group": 0,
+      "root_type": "Equity",
+      "parent_account": "النتيجة الصافية للدورة المالية (ربح أو خسارة)"
+    },
+    {
+      "account_name": "القيمة المضافة",
+      "account_number": "132",
+      "is_group": 0,
+      "root_type": "Equity",
+      "parent_account": "النتيجة الصافية للدورة المالية (ربح أو خسارة)"
+    },
+    {
+      "account_name": "الفائض غير الصافي للاستثمار",
+      "account_number": "133",
+      "is_group": 0,
+      "root_type": "Equity",
+      "parent_account": "النتيجة الصافية للدورة المالية (ربح أو خسارة)"
+    },
+    {
+      "account_name": "نتيجة الاستثمار (خارج الأعباء والإيرادات المالية)",
+      "account_number": "134",
+      "is_group": 0,
+      "root_type": "Equity",
+      "parent_account": "النتيجة الصافية للدورة المالية (ربح أو خسارة)"
+    },
+    {
+      "account_name": "النتيجة الجارية قبل الضريبة",
+      "account_number": "135",
+      "is_group": 0,
+      "root_type": "Equity",
+      "parent_account": "النتيجة الصافية للدورة المالية (ربح أو خسارة)"
+    },
+    {
+      "account_name": "النتيجة خارج الاستثمار",
+      "account_number": "136",
+      "is_group": 0,
+      "root_type": "Equity",
+      "parent_account": "النتيجة الصافية للدورة المالية (ربح أو خسارة)"
+    },
+    {
+      "account_name": "نتيجة الدورة - أرباح",
+      "account_number": "138",
+      "is_group": 0,
+      "root_type": "Equity",
+      "parent_account": "النتيجة الصافية للدورة المالية (ربح أو خسارة)"
+    },
+    {
+      "account_name": "نتيجة الدورة - خسائر",
+      "account_number": "139",
+      "is_group": 0,
+      "root_type": "Equity",
+      "parent_account": "النتيجة الصافية للدورة المالية (ربح أو خسارة)"
+    },
+    {
+      "account_name": "إعانات للتوظيفات",
+      "account_number": "14",
+      "is_group": 1,
+      "root_type": "Equity",
+      "parent_account": "الرساميل الدائمة"
+    },
+    {
+      "account_name": "إعانات للتوظيفات مقبوضة",
+      "account_number": "141",
+      "is_group": 0,
+      "root_type": "Equity",
+      "parent_account": "إعانات للتوظيفات"
+    },
+    {
+      "account_name": "إعانات للتوظيفات محولة للنتائج",
+      "account_number": "145",
+      "is_group": 0,
+      "root_type": "Equity",
+      "parent_account": "إعانات للتوظيفات"
+    },
+    {
+      "account_name": "مؤونات لمواجهة أخطار وأعباء",
+      "account_number": "15",
+      "is_group": 1,
+      "root_type": "Liability",
+      "parent_account": "الرساميل الدائمة"
+    },
+    {
+      "account_name": "مؤونات لمواجهة أخطار",
+      "account_number": "151",
+      "is_group": 1,
+      "root_type": "Liability",
+      "parent_account": "مؤونات لمواجهة أخطار وأعباء"
+    },
+    {
+      "account_name": "مؤونات للمنازعات والاحتمالات المختلفة",
+      "account_number": "1511",
+      "is_group": 0,
+      "root_type": "Liability",
+      "parent_account": "مؤونات لمواجهة أخطار"
+    },
+    {
+      "account_name": "مؤونات لقاء الضمانات المعطاة للزبائن",
+      "account_number": "1512",
+      "is_group": 0,
+      "root_type": "Liability",
+      "parent_account": "مؤونات لمواجهة أخطار"
+    },
+    {
+      "account_name": "مؤونات خسائر سعر الصرف",
+      "account_number": "1513",
+      "is_group": 0,
+      "root_type": "Liability",
+      "parent_account": "مؤونات لمواجهة أخطار"
+    },
+    {
+      "account_name": "مؤونات خسائر على عقود لأجل",
+      "account_number": "1514",
+      "is_group": 0,
+      "root_type": "Liability",
+      "parent_account": "مؤونات لمواجهة أخطار"
+    },
+    {
+      "account_name": "مؤونات الغرامات والجزاءات",
+      "account_number": "1515",
+      "is_group": 0,
+      "root_type": "Liability",
+      "parent_account": "مؤونات لمواجهة أخطار"
+    },
+    {
+      "account_name": "مؤونات لمواجهة أعباء",
+      "account_number": "155",
+      "is_group": 1,
+      "root_type": "Liability",
+      "parent_account": "مؤونات لمواجهة أخطار وأعباء"
+    },
+    {
+      "account_name": "مؤونات الأعباء الواجب توزيعها على عدة دورات مالية",
+      "account_number": "1551",
+      "is_group": 0,
+      "root_type": "Liability",
+      "parent_account": "مؤونات لمواجهة أعباء"
+    },
+    {
+      "account_name": "مؤونات لمواجهة معاشات التقاعد والموجبات المماثلة",
+      "account_number": "1552",
+      "is_group": 0,
+      "root_type": "Liability",
+      "parent_account": "مؤونات لمواجهة أعباء"
+    },
+    {
+      "account_name": "مؤونات للضرائب",
+      "account_number": "1553",
+      "is_group": 0,
+      "root_type": "Liability",
+      "parent_account": "مؤونات لمواجهة أعباء"
+    },
+    {
+      "account_name": "ديون مالية طويلة ومتوسطة الأجل",
+      "account_number": "16",
+      "is_group": 1,
+      "root_type": "Liability",
+      "parent_account": "الرساميل الدائمة"
+    },
+    {
+      "account_name": "قروض لقاء سندات دين",
+      "account_number": "161",
+      "is_group": 1,
+      "root_type": "Liability",
+      "parent_account": "ديون مالية طويلة ومتوسطة الأجل"
+    },
+    {
+      "account_name": "قروض من مؤسسات التسليف",
+      "account_number": "162",
+      "is_group": 1,
+      "root_type": "Liability",
+      "parent_account": "ديون مالية طويلة ومتوسطة الأجل"
+    },
+    {
+      "account_name": "قروض وديون مختلفة",
+      "account_number": "168",
+      "is_group": 1,
+      "root_type": "Liability",
+      "parent_account": "ديون مالية طويلة ومتوسطة الأجل"
+    },
+    {
+      "account_name": "أوراق دفع ناجمة عن شراء المؤسسة التجارية",
+      "account_number": "1681",
+      "is_group": 0,
+      "root_type": "Liability",
+      "parent_account": "قروض وديون مختلفة"
+    },
+    {
+      "account_name": "ودائع وكفالات",
+      "account_number": "1682",
+      "is_group": 0,
+      "root_type": "Liability",
+      "parent_account": "قروض وديون مختلفة"
+    },
+    {
+      "account_name": "سلفات الدولة",
+      "account_number": "1683",
+      "is_group": 0,
+      "root_type": "Liability",
+      "parent_account": "قروض وديون مختلفة"
+    },
+    {
+      "account_name": "دخل لمدى الحيازة متراكم",
+      "account_number": "1684",
+      "is_group": 0,
+      "root_type": "Liability",
+      "parent_account": "قروض وديون مختلفة"
+    },
+    {
+      "account_name": "ديون أخرى طويلة ومتوسطة الأجل",
+      "account_number": "1689",
+      "is_group": 0,
+      "root_type": "Liability",
+      "parent_account": "قروض وديون مختلفة"
+    },
+    {
+      "account_name": "حسابات ارتباط المؤسسات والفروع والشركات المشاركة",
+      "account_number": "18",
+      "is_group": 1,
+      "root_type": "Equity",
+      "parent_account": "الرساميل الدائمة"
+    },
+    {
+      "account_name": "حسابات ارتباط... (حساب لكل مؤسسة)",
+      "account_number": "181",
+      "is_group": 1,
+      "root_type": "Equity",
+      "parent_account": "حسابات ارتباط المؤسسات والفروع والشركات المشاركة"
+    },
+    {
+      "account_name": "رصيد مدور",
+      "account_number": "1811",
+      "is_group": 0,
+      "root_type": "Equity",
+      "parent_account": "حسابات ارتباط... (حساب لكل مؤسسة)"
+    },
+    {
+      "account_name": "حركات الدورة المالية",
+      "account_number": "1815",
+      "is_group": 0,
+      "root_type": "Equity",
+      "parent_account": "حسابات ارتباط... (حساب لكل مؤسسة)"
+    },
+    {
+      "account_name": "الأموال والخدمات المتبادلة بين الفروع (أعباء)",
+      "account_number": "186",
+      "is_group": 1,
+      "root_type": "Equity",
+      "parent_account": "حسابات ارتباط المؤسسات والفروع والشركات المشاركة"
+    },
+    {
+      "account_name": "الأموال والخدمات المتبادلة بين الفروع (إيرادات)",
+      "account_number": "187",
+      "is_group": 1,
+      "root_type": "Equity",
+      "parent_account": "حسابات ارتباط المؤسسات والفروع والشركات المشاركة"
+    },
+    {
+      "account_name": "حسابات تجميع الأعباء والإيرادات",
+      "account_number": "19",
+      "is_group": 1,
+      "root_type": "Equity",
+      "parent_account": "الرساميل الدائمة"
+    },
+    {
+      "account_name": "تحديد الهامش التجاري القائم",
+      "account_number": "191",
+      "is_group": 0,
+      "root_type": "Equity",
+      "parent_account": "حسابات تجميع الأعباء والإيرادات"
+    },
+    {
+      "account_name": "تحديد القيمة المضافة",
+      "account_number": "192",
+      "is_group": 0,
+      "root_type": "Equity",
+      "parent_account": "حسابات تجميع الأعباء والإيرادات"
+    },
+    {
+      "account_name": "تحديد الفائض غير الصافي للاستثمار",
+      "account_number": "193",
+      "is_group": 0,
+      "root_type": "Equity",
+      "parent_account": "حسابات تجميع الأعباء والإيرادات"
+    },
+    {
+      "account_name": "تحديد نتيجة الاستثمار",
+      "account_number": "194",
+      "is_group": 0,
+      "root_type": "Equity",
+      "parent_account": "حسابات تجميع الأعباء والإيرادات"
+    },
+    {
+      "account_name": "تحديد النتيجة الجارية قبل الضريبة",
+      "account_number": "195",
+      "is_group": 0,
+      "root_type": "Equity",
+      "parent_account": "حسابات تجميع الأعباء والإيرادات"
+    },
+    {
+      "account_name": "تحديد النتيجة خارج الاستثمار",
+      "account_number": "196",
+      "is_group": 0,
+      "root_type": "Equity",
+      "parent_account": "حسابات تجميع الأعباء والإيرادات"
+    },
+    {
+      "account_name": "تحديد نتيجة الدورة المالية",
+      "account_number": "197",
+      "is_group": 0,
+      "root_type": "Equity",
+      "parent_account": "حسابات تجميع الأعباء والإيرادات"
+    },
+    {
+      "account_name": "الأصول الثابتة غير المادية",
+      "account_number": "21",
+      "is_group": 1,
+      "root_type": "Asset",
+      "parent_account": "الأصول الثابتة"
+    },
+    {
+      "account_name": "المؤسسة التجارية (الخلو، الشهرة، الزبائن…)",
+      "account_number": "211",
+      "is_group": 1,
+      "root_type": "Asset",
+      "parent_account": "الأصول الثابتة غير المادية"
+    },
+    {
+      "account_name": "مصاريف التأسيس",
+      "account_number": "212",
+      "is_group": 1,
+      "root_type": "Asset",
+      "parent_account": "الأصول الثابتة غير المادية"
+    },
+    {
+      "account_name": "مصاريف البحوث والتطوير",
+      "account_number": "213",
+      "is_group": 1,
+      "root_type": "Asset",
+      "parent_account": "الأصول الثابتة غير المادية"
+    },
+    {
+      "account_name": "براءات الاختراع – الإجازات – العلامات والقيم المماثلة",
+      "account_number": "214",
+      "is_group": 1,
+      "root_type": "Asset",
+      "parent_account": "الأصول الثابتة غير المادية"
+    },
+    {
+      "account_name": "أصول ثابتة غير مادية أخرى",
+      "account_number": "219",
+      "is_group": 1,
+      "root_type": "Asset",
+      "parent_account": "الأصول الثابتة غير المادية"
+    },
+    {
+      "account_name": "سلفات ودفعات على حساب تقديم أصول ثابتة غير مادية",
+      "account_number": "2198",
+      "is_group": 0,
+      "root_type": "Asset",
+      "account_type": "Capital Work in Progress",
+      "parent_account": "أصول ثابتة غير مادية أخرى"
+    },
+    {
+      "account_name": "الأصول الثابتة المادية",
+      "account_number": "22",
+      "is_group": 1,
+      "root_type": "Asset",
+      "parent_account": "الأصول الثابتة"
+    },
+    {
+      "account_name": "الأراضي",
+      "account_number": "221",
+      "is_group": 1,
+      "root_type": "Asset",
+      "parent_account": "الأصول الثابتة المادية"
+    },
+    {
+      "account_name": "الأراضي الفِراغ",
+      "account_number": "2211",
+      "is_group": 0,
+      "root_type": "Asset",
+      "parent_account": "الأراضي"
+    },
+    {
+      "account_name": "الأراضي المبنية",
+      "account_number": "2212",
+      "is_group": 0,
+      "root_type": "Asset",
+      "parent_account": "الأراضي"
+    },
+    {
+      "account_name": "الأراضي برسم الاستثمار الجوفي",
+      "account_number": "2213",
+      "is_group": 0,
+      "root_type": "Asset",
+      "parent_account": "الأراضي"
+    },
+    {
+      "account_name": "استصلاح وتنظيم الأراضي",
+      "account_number": "2214",
+      "is_group": 0,
+      "root_type": "Asset",
+      "parent_account": "الأراضي"
+    },
+    {
+      "account_name": "الأبنية",
+      "account_number": "223",
+      "is_group": 1,
+      "root_type": "Asset",
+      "parent_account": "الأصول الثابتة المادية"
+    },
+    {
+      "account_name": "الأبنية",
+      "account_number": "2231",
+      "is_group": 0,
+      "root_type": "Asset",
+      "parent_account": "الأبنية"
+    },
+    {
+      "account_name": "التجهيزات العامة - استصلاح وتنظيم الأبنية",
+      "account_number": "2232",
+      "is_group": 0,
+      "root_type": "Asset",
+      "parent_account": "الأبنية"
+    },
+    {
+      "account_name": "إنشاءات البنية التحتية",
+      "account_number": "2233",
+      "is_group": 0,
+      "root_type": "Asset",
+      "parent_account": "الأبنية"
+    },
+    {
+      "account_name": "إنشاءات على أراضي الغير",
+      "account_number": "2234",
+      "is_group": 0,
+      "root_type": "Asset",
+      "parent_account": "الأبنية"
+    },
+    {
+      "account_name": "التجهيزات الفنية والآلات الصناعية",
+      "account_number": "224",
+      "is_group": 1,
+      "root_type": "Asset",
+      "parent_account": "الأصول الثابتة المادية"
+    },
+    {
+      "account_name": "تجهيزات متخصصة",
+      "account_number": "2241",
+      "is_group": 0,
+      "root_type": "Asset",
+      "parent_account": "التجهيزات الفنية والآلات الصناعية"
+    },
+    {
+      "account_name": "تجهيزات ذات طبيعة خاصة",
+      "account_number": "2242",
+      "is_group": 0,
+      "root_type": "Asset",
+      "parent_account": "التجهيزات الفنية والآلات الصناعية"
+    },
+    {
+      "account_name": "المعدات الصناعية",
+      "account_number": "2243",
+      "is_group": 0,
+      "root_type": "Asset",
+      "parent_account": "التجهيزات الفنية والآلات الصناعية"
+    },
+    {
+      "account_name": "الأدوات الصناعية",
+      "account_number": "2244",
+      "is_group": 0,
+      "root_type": "Asset",
+      "parent_account": "التجهيزات الفنية والآلات الصناعية"
+    },
+    {
+      "account_name": "آليات النقل",
+      "account_number": "225",
+      "is_group": 0,
+      "root_type": "Asset",
+      "parent_account": "الأصول الثابتة المادية"
+    },
+    {
+      "account_name": "أصول ثابتة مادية أخرى",
+      "account_number": "226",
+      "is_group": 1,
+      "root_type": "Asset",
+      "parent_account": "الأصول الثابتة المادية"
+    },
+    {
+      "account_name": "تجهيزات عامة، استصلاحات وتحسينات مختلفة",
+      "account_number": "2261",
+      "is_group": 0,
+      "root_type": "Asset",
+      "parent_account": "أصول ثابتة مادية أخرى"
+    },
+    {
+      "account_name": "أدوات مكتبية ومعلوماتية",
+      "account_number": "2262",
+      "is_group": 0,
+      "root_type": "Asset",
+      "parent_account": "أصول ثابتة مادية أخرى"
+    },
+    {
+      "account_name": "أثاث",
+      "account_number": "2263",
+      "is_group": 0,
+      "root_type": "Asset",
+      "parent_account": "أصول ثابتة مادية أخرى"
+    },
+    {
+      "account_name": "استثمارات زراعية",
+      "account_number": "2264",
+      "is_group": 0,
+      "root_type": "Asset",
+      "parent_account": "أصول ثابتة مادية أخرى"
+    },
+    {
+      "account_name": "عبوات قابلة لإعادة الاستعمال",
+      "account_number": "2265",
+      "is_group": 0,
+      "root_type": "Asset",
+      "parent_account": "أصول ثابتة مادية أخرى"
+    },
+    {
+      "account_name": "أصول ثابتة مادية قيد الصنع",
+      "account_number": "227",
+      "is_group": 1,
+      "root_type": "Asset",
+      "parent_account": "الأصول الثابتة المادية"
+    },
+    {
+      "account_name": "أراضٍ",
+      "account_number": "2271",
+      "is_group": 0,
+      "root_type": "Asset",
+      "account_type": "Capital Work in Progress",
+      "parent_account": "أصول ثابتة مادية قيد الصنع"
+    },
+    {
+      "account_name": "أبنية",
+      "account_number": "2273",
+      "is_group": 0,
+      "root_type": "Asset",
+      "account_type": "Capital Work in Progress",
+      "parent_account": "أصول ثابتة مادية قيد الصنع"
+    },
+    {
+      "account_name": "تجهيزات فنية، معدات وأدوات صناعية",
+      "account_number": "2274",
+      "is_group": 0,
+      "root_type": "Asset",
+      "account_type": "Capital Work in Progress",
+      "parent_account": "أصول ثابتة مادية قيد الصنع"
+    },
+    {
+      "account_name": "أصول ثابتة مادية أخرى",
+      "account_number": "2276",
+      "is_group": 0,
+      "root_type": "Asset",
+      "account_type": "Capital Work in Progress",
+      "parent_account": "أصول ثابتة مادية قيد الصنع"
+    },
+    {
+      "account_name": "سلفات ودفعات على حساب شراء أصول ثابتة مادية",
+      "account_number": "228",
+      "is_group": 0,
+      "root_type": "Asset",
+      "account_type": "Capital Work in Progress",
+      "parent_account": "الأصول الثابتة المادية"
+    },
+    {
+      "account_name": "الأصول الثابتة المالية",
+      "account_number": "25",
+      "is_group": 1,
+      "root_type": "Asset",
+      "parent_account": "الأصول الثابتة"
+    },
+    {
+      "account_name": "سندات مشاركة",
+      "account_number": "251",
+      "is_group": 1,
+      "root_type": "Asset",
+      "parent_account": "الأصول الثابتة المالية"
+    },
+    {
+      "account_name": "ذمم مدينة مرتبطة بمشاركات",
+      "account_number": "252",
+      "is_group": 1,
+      "root_type": "Asset",
+      "parent_account": "الأصول الثابتة المالية"
+    },
+    {
+      "account_name": "سندات أخرى مجمدة",
+      "account_number": "253",
+      "is_group": 1,
+      "root_type": "Asset",
+      "parent_account": "الأصول الثابتة المالية"
+    },
+    {
+      "account_name": "سندات ملكية (أسهم، حصص شراكة)",
+      "account_number": "2531",
+      "is_group": 0,
+      "root_type": "Asset",
+      "parent_account": "سندات أخرى مجمدة"
+    },
+    {
+      "account_name": "سندات دين (سندات، قسائم)",
+      "account_number": "2535",
+      "is_group": 0,
+      "root_type": "Asset",
+      "parent_account": "سندات أخرى مجمدة"
+    },
+    {
+      "account_name": "قروض طويلة ومتوسطة الأجل",
+      "account_number": "255",
+      "is_group": 1,
+      "root_type": "Asset",
+      "parent_account": "الأصول الثابتة المالية"
+    },
+    {
+      "account_name": "قروض للشركاء",
+      "account_number": "2551",
+      "is_group": 0,
+      "root_type": "Asset",
+      "parent_account": "قروض طويلة ومتوسطة الأجل"
+    },
+    {
+      "account_name": "قروض للمستخدمين",
+      "account_number": "2552",
+      "is_group": 0,
+      "root_type": "Asset",
+      "parent_account": "قروض طويلة ومتوسطة الأجل"
+    },
+    {
+      "account_name": "قروض أخرى",
+      "account_number": "2558",
+      "is_group": 0,
+      "root_type": "Asset",
+      "parent_account": "قروض طويلة ومتوسطة الأجل"
+    },
+    {
+      "account_name": "ذمم مدينة أخرى مجمدة",
+      "account_number": "259",
+      "is_group": 1,
+      "root_type": "Asset",
+      "parent_account": "الأصول الثابتة المالية"
+    },
+    {
+      "account_name": "استهلاكات الأصول الثابتة",
+      "account_number": "28",
+      "is_group": 1,
+      "root_type": "Asset",
+      "parent_account": "الأصول الثابتة"
+    },
+    {
+      "account_name": "استهلاكات المؤسسة التجارية (الشهرة)",
+      "account_number": "280",
+      "is_group": 1,
+      "root_type": "Asset",
+      "parent_account": "استهلاكات الأصول الثابتة"
+    },
+    {
+      "account_name": "استهلاكات الأصول الثابتة غير المادية الأخرى",
+      "account_number": "281",
+      "is_group": 1,
+      "root_type": "Asset",
+      "parent_account": "استهلاكات الأصول الثابتة"
+    },
+    {
+      "account_name": "مصاريف التأسيس",
+      "account_number": "2811",
+      "is_group": 0,
+      "root_type": "Asset",
+      "account_type": "Accumulated Depreciation",
+      "parent_account": "استهلاكات الأصول الثابتة غير المادية الأخرى"
+    },
+    {
+      "account_name": "مصاريف البحوث والتطوير",
+      "account_number": "2812",
+      "is_group": 0,
+      "root_type": "Asset",
+      "account_type": "Accumulated Depreciation",
+      "parent_account": "استهلاكات الأصول الثابتة غير المادية الأخرى"
+    },
+    {
+      "account_name": "براءات الاختراع – الإجازات والقيم المماثلة",
+      "account_number": "2813",
+      "is_group": 0,
+      "root_type": "Asset",
+      "account_type": "Accumulated Depreciation",
+      "parent_account": "استهلاكات الأصول الثابتة غير المادية الأخرى"
+    },
+    {
+      "account_name": "أصول ثابتة غير مادية أخرى",
+      "account_number": "2819",
+      "is_group": 0,
+      "root_type": "Asset",
+      "parent_account": "استهلاكات الأصول الثابتة غير المادية الأخرى"
+    },
+    {
+      "account_name": "استهلاكات الأصول الثابتة المادية",
+      "account_number": "282",
+      "is_group": 1,
+      "root_type": "Asset",
+      "parent_account": "استهلاكات الأصول الثابتة"
+    },
+    {
+      "account_name": "أراضٍ برسم الاستثمار الجوفي",
+      "account_number": "2821",
+      "is_group": 0,
+      "root_type": "Asset",
+      "account_type": "Accumulated Depreciation",
+      "parent_account": "استهلاكات الأصول الثابتة المادية"
+    },
+    {
+      "account_name": "الأبنية",
+      "account_number": "2823",
+      "is_group": 1,
+      "root_type": "Asset",
+      "parent_account": "استهلاكات الأصول الثابتة المادية"
+    },
+    {
+      "account_name": "الأبنية",
+      "account_number": "28231",
+      "is_group": 0,
+      "root_type": "Asset",
+      "account_type": "Accumulated Depreciation",
+      "parent_account": "الأبنية"
+    },
+    {
+      "account_name": "التجهيزات العامة - استصلاح وتنظيم الأبنية",
+      "account_number": "28232",
+      "is_group": 0,
+      "root_type": "Asset",
+      "account_type": "Accumulated Depreciation",
+      "parent_account": "الأبنية"
+    },
+    {
+      "account_name": "إنشاءات البنية التحتية",
+      "account_number": "28233",
+      "is_group": 0,
+      "root_type": "Asset",
+      "account_type": "Accumulated Depreciation",
+      "parent_account": "الأبنية"
+    },
+    {
+      "account_name": "إنشاءات على أراضي الغير",
+      "account_number": "28234",
+      "is_group": 0,
+      "root_type": "Asset",
+      "account_type": "Accumulated Depreciation",
+      "parent_account": "الأبنية"
+    },
+    {
+      "account_name": "التجهيزات الفنية والمعدات والأدوات الصناعية",
+      "account_number": "2824",
+      "is_group": 1,
+      "root_type": "Asset",
+      "parent_account": "استهلاكات الأصول الثابتة المادية"
+    },
+    {
+      "account_name": "تجهيزات متخصصة",
+      "account_number": "28241",
+      "is_group": 0,
+      "root_type": "Asset",
+      "account_type": "Accumulated Depreciation",
+      "parent_account": "التجهيزات الفنية والمعدات والأدوات الصناعية"
+    },
+    {
+      "account_name": "تجهيزات ذات طبيعة خاصة",
+      "account_number": "28242",
+      "is_group": 0,
+      "root_type": "Asset",
+      "account_type": "Accumulated Depreciation",
+      "parent_account": "التجهيزات الفنية والمعدات والأدوات الصناعية"
+    },
+    {
+      "account_name": "المعدات الصناعية",
+      "account_number": "28243",
+      "is_group": 0,
+      "root_type": "Asset",
+      "account_type": "Accumulated Depreciation",
+      "parent_account": "التجهيزات الفنية والمعدات والأدوات الصناعية"
+    },
+    {
+      "account_name": "الأدوات الصناعية",
+      "account_number": "28244",
+      "is_group": 0,
+      "root_type": "Asset",
+      "account_type": "Accumulated Depreciation",
+      "parent_account": "التجهيزات الفنية والمعدات والأدوات الصناعية"
+    },
+    {
+      "account_name": "آليات النقل",
+      "account_number": "2825",
+      "is_group": 0,
+      "root_type": "Asset",
+      "account_type": "Accumulated Depreciation",
+      "parent_account": "استهلاكات الأصول الثابتة المادية"
+    },
+    {
+      "account_name": "أصول ثابتة مادية أخرى",
+      "account_number": "2826",
+      "is_group": 1,
+      "root_type": "Asset",
+      "parent_account": "استهلاكات الأصول الثابتة المادية"
+    },
+    {
+      "account_name": "تجهيزات عامة، استصلاحات وتحسينات مختلفة",
+      "account_number": "28261",
+      "is_group": 0,
+      "root_type": "Asset",
+      "account_type": "Accumulated Depreciation",
+      "parent_account": "أصول ثابتة مادية أخرى"
+    },
+    {
+      "account_name": "أدوات مكتبية ومعلوماتية",
+      "account_number": "28262",
+      "is_group": 0,
+      "root_type": "Asset",
+      "account_type": "Accumulated Depreciation",
+      "parent_account": "أصول ثابتة مادية أخرى"
+    },
+    {
+      "account_name": "أثاث",
+      "account_number": "28263",
+      "is_group": 0,
+      "root_type": "Asset",
+      "account_type": "Accumulated Depreciation",
+      "parent_account": "أصول ثابتة مادية أخرى"
+    },
+    {
+      "account_name": "استثمارات زراعية",
+      "account_number": "28264",
+      "is_group": 0,
+      "root_type": "Asset",
+      "account_type": "Accumulated Depreciation",
+      "parent_account": "أصول ثابتة مادية أخرى"
+    },
+    {
+      "account_name": "عبوات قابلة لإعادة الاستعمال",
+      "account_number": "28265",
+      "is_group": 0,
+      "root_type": "Asset",
+      "account_type": "Accumulated Depreciation",
+      "parent_account": "أصول ثابتة مادية أخرى"
+    },
+    {
+      "account_name": "مؤونات هبوط أسعار الأصول الثابتة",
+      "account_number": "29",
+      "is_group": 1,
+      "root_type": "Asset",
+      "parent_account": "الأصول الثابتة"
+    },
+    {
+      "account_name": "مؤونات هبوط قيمة (المؤسسة التجارية)",
+      "account_number": "290",
+      "is_group": 1,
+      "root_type": "Asset",
+      "parent_account": "مؤونات هبوط أسعار الأصول الثابتة"
+    },
+    {
+      "account_name": "مؤونات هبوط قيم الأصول الثابتة غير المادية",
+      "account_number": "291",
+      "is_group": 1,
+      "root_type": "Asset",
+      "parent_account": "مؤونات هبوط أسعار الأصول الثابتة"
+    },
+    {
+      "account_name": "علامات وقيم مماثلة",
+      "account_number": "2911",
+      "is_group": 0,
+      "root_type": "Asset",
+      "parent_account": "مؤونات هبوط قيم الأصول الثابتة غير المادية"
+    },
+    {
+      "account_name": "أصول ثابتة غير مادية أخرى",
+      "account_number": "2919",
+      "is_group": 0,
+      "root_type": "Asset",
+      "parent_account": "مؤونات هبوط قيم الأصول الثابتة غير المادية"
+    },
+    {
+      "account_name": "مؤونات هبوط أسعار الأصول الثابتة المادية",
+      "account_number": "292",
+      "is_group": 1,
+      "root_type": "Asset",
+      "parent_account": "مؤونات هبوط أسعار الأصول الثابتة"
+    },
+    {
+      "account_name": "الأراضي (غير أراضي الاستثمار الجوفي)",
+      "account_number": "2921",
+      "is_group": 0,
+      "root_type": "Asset",
+      "parent_account": "مؤونات هبوط أسعار الأصول الثابتة المادية"
+    },
+    {
+      "account_name": "أصول ثابتة مادية أخرى",
+      "account_number": "2926",
+      "is_group": 0,
+      "root_type": "Asset",
+      "parent_account": "مؤونات هبوط أسعار الأصول الثابتة المادية"
+    },
+    {
+      "account_name": "مؤونات هبوط أسعار الأصول الثابتة المالية",
+      "account_number": "295",
+      "is_group": 1,
+      "root_type": "Asset",
+      "parent_account": "مؤونات هبوط أسعار الأصول الثابتة"
+    },
+    {
+      "account_name": "سندات المشاركة",
+      "account_number": "2951",
+      "is_group": 0,
+      "root_type": "Asset",
+      "parent_account": "مؤونات هبوط أسعار الأصول الثابتة المالية"
+    },
+    {
+      "account_name": "ذمم مدينة مرتبطة بمشاركات",
+      "account_number": "2952",
+      "is_group": 0,
+      "root_type": "Asset",
+      "parent_account": "مؤونات هبوط أسعار الأصول الثابتة المالية"
+    },
+    {
+      "account_name": "سندات أخرى مجمدة",
+      "account_number": "2953",
+      "is_group": 0,
+      "root_type": "Asset",
+      "parent_account": "مؤونات هبوط أسعار الأصول الثابتة المالية"
+    },
+    {
+      "account_name": "قروض ممنوحة طويلة ومتوسطة الأجل",
+      "account_number": "2955",
+      "is_group": 0,
+      "root_type": "Asset",
+      "parent_account": "مؤونات هبوط أسعار الأصول الثابتة المالية"
+    },
+    {
+      "account_name": "ذمم مدينة أخرى مجمدة",
+      "account_number": "2959",
+      "is_group": 0,
+      "root_type": "Asset",
+      "parent_account": "مؤونات هبوط أسعار الأصول الثابتة المالية"
+    },
+    {
+      "account_name": "مواد أولية أو استهلاكية",
+      "account_number": "31",
+      "is_group": 1,
+      "root_type": "Asset",
+      "parent_account": "المخزون و قيد الصنع"
+    },
+    {
+      "account_name": "مواد أولية",
+      "account_number": "311",
+      "is_group": 0,
+      "root_type": "Asset",
+      "parent_account": "مواد أولية أو استهلاكية"
+    },
+    {
+      "account_name": "مواد ولوازم استهلاكية أخرى",
+      "account_number": "315",
+      "is_group": 0,
+      "root_type": "Asset",
+      "parent_account": "مواد أولية أو استهلاكية"
+    },
+    {
+      "account_name": "قيد الصنع (سلع وأشغال وخدمات)",
+      "account_number": "33",
+      "is_group": 1,
+      "root_type": "Asset",
+      "parent_account": "المخزون و قيد الصنع"
+    },
+    {
+      "account_name": "منتجات قيد الصنع",
+      "account_number": "331",
+      "is_group": 0,
+      "root_type": "Asset",
+      "parent_account": "قيد الصنع (سلع وأشغال وخدمات)"
+    },
+    {
+      "account_name": "أشغال قيد التنفيذ",
+      "account_number": "332",
+      "is_group": 0,
+      "root_type": "Asset",
+      "parent_account": "قيد الصنع (سلع وأشغال وخدمات)"
+    },
+    {
+      "account_name": "دراسات قيد الإعداد",
+      "account_number": "335",
+      "is_group": 0,
+      "root_type": "Asset",
+      "parent_account": "قيد الصنع (سلع وأشغال وخدمات)"
+    },
+    {
+      "account_name": "خدمات قيد التقديم",
+      "account_number": "336",
+      "is_group": 0,
+      "root_type": "Asset",
+      "parent_account": "قيد الصنع (سلع وأشغال وخدمات)"
+    },
+    {
+      "account_name": "منتجات",
+      "account_number": "35",
+      "is_group": 1,
+      "root_type": "Asset",
+      "parent_account": "المخزون و قيد الصنع"
+    },
+    {
+      "account_name": "منتجات وسيطة",
+      "account_number": "351",
+      "is_group": 0,
+      "root_type": "Asset",
+      "parent_account": "منتجات"
+    },
+    {
+      "account_name": "منتجات تامة الصنع",
+      "account_number": "355",
+      "is_group": 0,
+      "root_type": "Asset",
+      "parent_account": "منتجات"
+    },
+    {
+      "account_name": "فضلات الإنتاج",
+      "account_number": "358",
+      "is_group": 0,
+      "root_type": "Asset",
+      "parent_account": "منتجات"
+    },
+    {
+      "account_name": "البضائع (المعدة للبيع)",
+      "account_number": "37",
+      "is_group": 1,
+      "root_type": "Asset",
+      "parent_account": "المخزون و قيد الصنع"
+    },
+    {
+      "account_name": "بضائع أ",
+      "account_number": "371",
+      "is_group": 0,
+      "root_type": "Asset",
+      "account_type": "Stock",
+      "parent_account": "البضائع (المعدة للبيع)"
+    },
+    {
+      "account_name": "بضائع ب",
+      "account_number": "372",
+      "is_group": 0,
+      "root_type": "Asset",
+      "account_type": "Stock",
+      "parent_account": "البضائع (المعدة للبيع)"
+    },
+    {
+      "account_name": "مؤونات هبوط أسعار المخزون وقيد الصنع",
+      "account_number": "39",
+      "is_group": 1,
+      "root_type": "Asset",
+      "parent_account": "المخزون و قيد الصنع"
+    },
+    {
+      "account_name": "مؤونات هبوط أسعار مخزون المواد الأولية والاستهلاكية",
+      "account_number": "391",
+      "is_group": 0,
+      "root_type": "Asset",
+      "parent_account": "مؤونات هبوط أسعار المخزون وقيد الصنع"
+    },
+    {
+      "account_name": "مؤونات هبوط أسعار الإنتاج قيد الصنع",
+      "account_number": "393",
+      "is_group": 0,
+      "root_type": "Asset",
+      "parent_account": "مؤونات هبوط أسعار المخزون وقيد الصنع"
+    },
+    {
+      "account_name": "مؤونات هبوط أسعار الإنتاج المخزون",
+      "account_number": "395",
+      "is_group": 0,
+      "root_type": "Asset",
+      "parent_account": "مؤونات هبوط أسعار المخزون وقيد الصنع"
+    },
+    {
+      "account_name": "مؤونات هبوط أسعار البضاعة المخزونة",
+      "account_number": "397",
+      "is_group": 0,
+      "root_type": "Asset",
+      "parent_account": "مؤونات هبوط أسعار المخزون وقيد الصنع"
+    },
+    {
+      "account_name": "الموردون",
+      "account_number": "40",
+      "is_group": 0,
+      "parent_account": "حسابات الذمم"
+    },
+    {
+      "account_name": "ذمم دائنة (موردو الاستثمار)",
+      "account_number": "401",
+      "is_group": 1,
+      "root_type": "Liability",
+      "parent_account": "الموردون"
+    },
+    {
+      "account_name": "فواتير",
+      "account_number": "4011",
+      "is_group": 0,
+      "root_type": "Liability",
+      "account_type": "Payable",
+      "parent_account": "ذمم دائنة (موردو الاستثمار)"
+    },
+    {
+      "account_name": "أوراق دفع",
+      "account_number": "4015",
+      "is_group": 0,
+      "root_type": "Liability",
+      "parent_account": "ذمم دائنة (موردو الاستثمار)"
+    },
+    {
+      "account_name": "فواتير لم تصل بعد",
+      "account_number": "4018",
+      "is_group": 0,
+      "root_type": "Liability",
+      "account_type": "Stock Received But Not Billed",
+      "parent_account": "ذمم دائنة (موردو الاستثمار)"
+    },
+    {
+      "account_name": "حسومات مكتسبة",
+      "account_number": "4019",
+      "is_group": 0,
+      "root_type": "Liability",
+      "parent_account": "ذمم دائنة (موردو الاستثمار)"
+    },
+    {
+      "account_name": "موردو الأصول الثابتة",
+      "account_number": "403",
+      "is_group": 1,
+      "root_type": "Liability",
+      "parent_account": "الموردون"
+    },
+    {
+      "account_name": "فواتير",
+      "account_number": "4031",
+      "is_group": 0,
+      "root_type": "Liability",
+      "parent_account": "موردو الأصول الثابتة"
+    },
+    {
+      "account_name": "أوراق دفع",
+      "account_number": "4035",
+      "is_group": 0,
+      "root_type": "Liability",
+      "parent_account": "موردو الأصول الثابتة"
+    },
+    {
+      "account_name": "فواتير لم تصل بعد",
+      "account_number": "4038",
+      "is_group": 0,
+      "root_type": "Liability",
+      "parent_account": "موردو الأصول الثابتة"
+    },
+    {
+      "account_name": "حسومات مكتسبة",
+      "account_number": "4039",
+      "is_group": 0,
+      "root_type": "Liability",
+      "parent_account": "موردو الأصول الثابتة"
+    },
+    {
+      "account_name": "سلفات ودفعات على حساب طلبيات للاستثمار",
+      "account_number": "409",
+      "is_group": 1,
+      "root_type": "Liability",
+      "parent_account": "الموردون"
+    },
+    {
+      "account_name": "فواتير الزبائن",
+      "account_number": "411",
+      "is_group": 1,
+      "root_type": "Asset",
+      "parent_account": "حسابات الذمم  -  الزبائن"
+    },
+    {
+      "account_name": "زبائن عاديون",
+      "account_number": "4111",
+      "is_group": 0,
+      "root_type": "Asset",
+      "account_type": "Receivable",
+      "parent_account": "فواتير الزبائن"
+    },
+    {
+      "account_name": "زبائن مشكوك بتحصيل ديونهم",
+      "account_number": "4115",
+      "is_group": 0,
+      "root_type": "Asset",
+      "parent_account": "فواتير الزبائن"
+    },
+    {
+      "account_name": "حسومات ممنوحة من المؤسسة",
+      "account_number": "4119",
+      "is_group": 0,
+      "root_type": "Asset",
+      "parent_account": "فواتير الزبائن"
+    },
+    {
+      "account_name": "أوراق قبض - زبائن",
+      "account_number": "413",
+      "is_group": 1,
+      "root_type": "Asset",
+      "parent_account": "حسابات الذمم  -  الزبائن"
+    },
+    {
+      "account_name": "ذمم مدينة على أشغال لم تبلغ مرحلة تحرير فواتير بها",
+      "account_number": "415",
+      "is_group": 1,
+      "root_type": "Asset",
+      "parent_account": "حسابات الذمم  -  الزبائن"
+    },
+    {
+      "account_name": "فواتير قيد الإعداد",
+      "account_number": "418",
+      "is_group": 1,
+      "root_type": "Asset",
+      "parent_account": "حسابات الذمم  -  الزبائن"
+    },
+    {
+      "account_name": "سلفات ومقبوضات على حساب طلبيات قيد التنفيذ",
+      "account_number": "419",
+      "is_group": 1,
+      "root_type": "Asset",
+      "parent_account": "حسابات الذمم  -  الزبائن"
+    },
+    {
+      "account_name": "المستخدمون",
+      "account_number": "42",
+      "is_group": 1,
+      "root_type": "Liability",
+      "parent_account": "حسابات الذمم"
+    },
+    {
+      "account_name": "مدفوعات متوجبة للمستخدمين",
+      "account_number": "421",
+      "is_group": 0,
+      "root_type": "Liability",
+      "parent_account": "المستخدمون"
+    },
+    {
+      "account_name": "حسابات المستخدمين المدينة",
+      "account_number": "428",
+      "is_group": 1,
+      "root_type": "Asset",
+      "parent_account": "المستخدمون"
+    },
+    {
+      "account_name": "سلفات ودفعات للمستخدمين",
+      "account_number": "4281",
+      "is_group": 0,
+      "root_type": "Asset",
+      "parent_account": "حسابات المستخدمين المدينة"
+    },
+    {
+      "account_name": "حجوزات",
+      "account_number": "4282",
+      "is_group": 0,
+      "root_type": "Asset",
+      "parent_account": "حسابات المستخدمين المدينة"
+    },
+    {
+      "account_name": "مؤسسات الضمان الاجتماعي",
+      "account_number": "43",
+      "is_group": 1,
+      "root_type": "Liability",
+      "parent_account": "حسابات الذمم"
+    },
+    {
+      "account_name": "ذمم دائنة تجاه مؤسسات الضمان الاجتماعي",
+      "account_number": "431",
+      "is_group": 0,
+      "root_type": "Liability",
+      "parent_account": "مؤسسات الضمان الاجتماعي"
+    },
+    {
+      "account_name": "تقديمات برسم الدفع",
+      "account_number": "4311",
+      "is_group": 0,
+      "root_type": "Liability",
+      "parent_account": "ذمم دائنة تجاه مؤسسات الضمان الاجتماعي"
+    },
+    {
+      "account_name": "أوراق الدفع - مؤسسات الضمان الاجتماعي",
+      "account_number": "4315",
+      "is_group": 0,
+      "root_type": "Liability",
+      "parent_account": "ذمم دائنة تجاه مؤسسات الضمان الاجتماعي"
+    },
+    {
+      "account_name": "أعباء يجب لحظها - مؤسسات الضمان الاجتماعي",
+      "account_number": "4318",
+      "is_group": 0,
+      "root_type": "Liability",
+      "parent_account": "ذمم دائنة تجاه مؤسسات الضمان الاجتماعي"
+    },
+    {
+      "account_name": "ذمم مدينة على مؤسسات الضمان الاجتماعي",
+      "account_number": "438",
+      "is_group": 0,
+      "root_type": "Asset",
+      "parent_account": "مؤسسات الضمان الاجتماعي"
+    },
+    {
+      "account_name": "الدولة والمؤسسات العامة",
+      "account_number": "44",
+      "is_group": 1,
+      "root_type": "Liability",
+      "parent_account": "حسابات الذمم"
+    },
+    {
+      "account_name": "ضرائب متوجبة على الاستثمار",
+      "account_number": "441",
+      "is_group": 1,
+      "root_type": "Liability",
+      "parent_account": "الدولة والمؤسسات العامة"
+    },
+    {
+      "account_name": "ضرائب ورسوم متوجبة",
+      "account_number": "4411",
+      "is_group": 0,
+      "root_type": "Liability",
+      "parent_account": "ضرائب متوجبة على الاستثمار"
+    },
+    {
+      "account_name": "أوراق دفع - ضرائب ورسوم",
+      "account_number": "4415",
+      "is_group": 0,
+      "root_type": "Liability",
+      "parent_account": "ضرائب متوجبة على الاستثمار"
+    },
+    {
+      "account_name": "أعباء يجب لحظها - ضرائب ورسوم",
+      "account_number": "4418",
+      "is_group": 0,
+      "root_type": "Liability",
+      "parent_account": "ضرائب متوجبة على الاستثمار"
+    },
+    {
+      "account_name": "ضرائب متوجبة خارج الاستثمار",
+      "account_number": "443",
+      "is_group": 1,
+      "root_type": "Liability",
+      "parent_account": "الدولة والمؤسسات العامة"
+    },
+    {
+      "account_name": "الضرائب على الأرباح",
+      "account_number": "4431",
+      "is_group": 0,
+      "root_type": "Liability",
+      "parent_account": "ضرائب متوجبة خارج الاستثمار"
+    },
+    {
+      "account_name": "الدولة والمؤسسات العامة (ذمم دائنة أخرى)",
+      "account_number": "445",
+      "is_group": 1,
+      "root_type": "Liability",
+      "parent_account": "الدولة والمؤسسات العامة"
+    },
+    {
+      "account_name": "الدولة والمؤسسات العامة (ذمم مدينة)",
+      "account_number": "449",
+      "is_group": 1,
+      "root_type": "Asset",
+      "parent_account": "الدولة والمؤسسات العامة"
+    },
+    {
+      "account_name": "إعانات مستحقة غير مقبوضة",
+      "account_number": "4491",
+      "is_group": 0,
+      "root_type": "Asset",
+      "parent_account": "الدولة والمؤسسات العامة (ذمم مدينة)"
+    },
+    {
+      "account_name": "ذمم مدينة أخرى (الدولة والمؤسسات العامة)",
+      "account_number": "4497",
+      "is_group": 0,
+      "root_type": "Asset",
+      "parent_account": "الدولة والمؤسسات العامة (ذمم مدينة)"
+    },
+    {
+      "account_name": "إيرادات مستحقة غير مقبوضة",
+      "account_number": "4498",
+      "is_group": 0,
+      "root_type": "Asset",
+      "parent_account": "الدولة والمؤسسات العامة (ذمم مدينة)"
+    },
+    {
+      "account_name": "الشركاء",
+      "account_number": "45",
+      "is_group": 1,
+      "root_type": "Liability",
+      "parent_account": "حسابات الذمم"
+    },
+    {
+      "account_name": "حسابات الشركاء الجارية المدينة أو الدائنة",
+      "account_number": "451",
+      "is_group": 1,
+      "root_type": "Liability",
+      "parent_account": "الشركاء"
+    },
+    {
+      "account_name": "شركات شقيقة",
+      "account_number": "4511",
+      "is_group": 0,
+      "root_type": "Liability",
+      "parent_account": "حسابات الشركاء الجارية المدينة أو الدائنة"
+    },
+    {
+      "account_name": "الشركة الأم",
+      "account_number": "45111",
+      "is_group": 0,
+      "root_type": "Liability",
+      "parent_account": "حسابات الشركاء الجارية المدينة أو الدائنة"
+    },
+    {
+      "account_name": "الشركات التابعة",
+      "account_number": "45112",
+      "is_group": 0,
+      "root_type": "Liability",
+      "parent_account": "حسابات الشركاء الجارية المدينة أو الدائنة"
+    },
+    {
+      "account_name": "الشركات المشاركة",
+      "account_number": "45113",
+      "is_group": 0,
+      "root_type": "Liability",
+      "parent_account": "حسابات الشركاء الجارية المدينة أو الدائنة"
+    },
+    {
+      "account_name": "الشركات الداخلة في عدة مجموعات",
+      "account_number": "45114",
+      "is_group": 0,
+      "root_type": "Liability",
+      "parent_account": "حسابات الشركاء الجارية المدينة أو الدائنة"
+    },
+    {
+      "account_name": "شركاء آخرون",
+      "account_number": "4515",
+      "is_group": 0,
+      "root_type": "Liability",
+      "parent_account": "حسابات الشركاء الجارية المدينة أو الدائنة"
+    },
+    {
+      "account_name": "عمليات مشتركة",
+      "account_number": "4518",
+      "is_group": 0,
+      "root_type": "Liability",
+      "parent_account": "حسابات الشركاء الجارية المدينة أو الدائنة"
+    },
+    {
+      "account_name": "أنصبة أرباح برسم الدفع",
+      "account_number": "453",
+      "is_group": 0,
+      "root_type": "Liability",
+      "parent_account": "الشركاء"
+    },
+    {
+      "account_name": "ذمم دائنة أخرى للشركاء",
+      "account_number": "455",
+      "is_group": 1,
+      "root_type": "Liability",
+      "parent_account": "الشركاء"
+    },
+    {
+      "account_name": "حسابات المقدمات للشركة",
+      "account_number": "4551",
+      "is_group": 0,
+      "root_type": "Liability",
+      "parent_account": "ذمم دائنة أخرى للشركاء"
+    },
+    {
+      "account_name": "رأس المال المقرر استرداده من الشركاء",
+      "account_number": "4552",
+      "is_group": 0,
+      "root_type": "Liability",
+      "parent_account": "ذمم دائنة أخرى للشركاء"
+    },
+    {
+      "account_name": "ذمم دائنة أخرى",
+      "account_number": "4557",
+      "is_group": 0,
+      "root_type": "Liability",
+      "parent_account": "ذمم دائنة أخرى للشركاء"
+    },
+    {
+      "account_name": "ذمم الشركاء المدينة",
+      "account_number": "459",
+      "is_group": 1,
+      "root_type": "Asset",
+      "parent_account": "الشركاء"
+    },
+    {
+      "account_name": "رأس المال المكتتب غير المستدعى",
+      "account_number": "4591",
+      "is_group": 0,
+      "root_type": "Asset",
+      "parent_account": "ذمم الشركاء المدينة"
+    },
+    {
+      "account_name": "رأس المال المكتتب المستدعى وغير المدفوع",
+      "account_number": "4592",
+      "is_group": 0,
+      "root_type": "Asset",
+      "parent_account": "ذمم الشركاء المدينة"
+    },
+    {
+      "account_name": "ذمم مدينة أخرى",
+      "account_number": "4597",
+      "is_group": 0,
+      "root_type": "Asset",
+      "parent_account": "ذمم الشركاء المدينة"
+    },
+    {
+      "account_name": "ذمم مختلفة",
+      "account_number": "46",
+      "is_group": 1,
+      "root_type": "Liability",
+      "parent_account": "حسابات الذمم"
+    },
+    {
+      "account_name": "ذمم الاستثمار الدائنة الأخرى",
+      "account_number": "461",
+      "is_group": 1,
+      "root_type": "Liability",
+      "parent_account": "ذمم مختلفة"
+    },
+    {
+      "account_name": "ذمم دائنة متعلقة بالعبوات والمعدات الموضوعة بالأمانة",
+      "account_number": "4611",
+      "is_group": 0,
+      "root_type": "Liability",
+      "parent_account": "ذمم الاستثمار الدائنة الأخرى"
+    },
+    {
+      "account_name": "حسابات دائنة مختلفة - استثمار",
+      "account_number": "4619",
+      "is_group": 0,
+      "root_type": "Liability",
+      "parent_account": "ذمم الاستثمار الدائنة الأخرى"
+    },
+    {
+      "account_name": "أقساط برسم الدفع على أصول ثابتة مالية",
+      "account_number": "463",
+      "is_group": 1,
+      "root_type": "Liability",
+      "parent_account": "ذمم مختلفة"
+    },
+    {
+      "account_name": "سندات مشاركة غير محررة",
+      "account_number": "4631",
+      "is_group": 0,
+      "root_type": "Liability",
+      "parent_account": "أقساط برسم الدفع على أصول ثابتة مالية"
+    },
+    {
+      "account_name": "سندات أخرى مجمدة غير محررة",
+      "account_number": "4633",
+      "is_group": 0,
+      "root_type": "Liability",
+      "parent_account": "أقساط برسم الدفع على أصول ثابتة مالية"
+    },
+    {
+      "account_name": "دائنون مختلفون خارج الاستثمار",
+      "account_number": "465",
+      "is_group": 1,
+      "root_type": "Liability",
+      "parent_account": "ذمم مختلفة"
+    },
+    {
+      "account_name": "ذمم دائنة على امتلاك سندات التوظيف",
+      "account_number": "4651",
+      "is_group": 0,
+      "root_type": "Liability",
+      "parent_account": "دائنون مختلفون خارج الاستثمار"
+    },
+    {
+      "account_name": "سندات الدين",
+      "account_number": "4652",
+      "is_group": 0,
+      "root_type": "Liability",
+      "parent_account": "دائنون مختلفون خارج الاستثمار"
+    },
+    {
+      "account_name": "أقساط برسم الدفع على سندات توظيف",
+      "account_number": "4653",
+      "is_group": 0,
+      "root_type": "Liability",
+      "parent_account": "دائنون مختلفون خارج الاستثمار"
+    },
+    {
+      "account_name": "دائنون مختلفون - خارج الاستثمار",
+      "account_number": "4659",
+      "is_group": 0,
+      "root_type": "Liability",
+      "parent_account": "دائنون مختلفون خارج الاستثمار"
+    },
+    {
+      "account_name": "مدينون مختلفون للاستثمار",
+      "account_number": "468",
+      "is_group": 1,
+      "root_type": "Asset",
+      "parent_account": "ذمم مختلفة"
+    },
+    {
+      "account_name": "ذمم مدينة متعلقة بالعبوات والمعدات الواجب إعادتها",
+      "account_number": "4681",
+      "is_group": 0,
+      "root_type": "Asset",
+      "parent_account": "مدينون مختلفون للاستثمار"
+    },
+    {
+      "account_name": "حسابات أخرى مدينة مختلفة - للاستثمار",
+      "account_number": "4689",
+      "is_group": 0,
+      "root_type": "Asset",
+      "parent_account": "مدينون مختلفون للاستثمار"
+    },
+    {
+      "account_name": "مدينون مختلفون - خارج الاستثمار",
+      "account_number": "469",
+      "is_group": 1,
+      "root_type": "Asset",
+      "parent_account": "ذمم مختلفة"
+    },
+    {
+      "account_name": "ذمم مدينة على بيع أصول ثابتة وسندات توظيف",
+      "account_number": "4691",
+      "is_group": 0,
+      "root_type": "Asset",
+      "parent_account": "مدينون مختلفون - خارج الاستثمار"
+    },
+    {
+      "account_name": "حسابات أخرى مدينة مختلفة - خارج الاستثمار",
+      "account_number": "4699",
+      "is_group": 0,
+      "root_type": "Asset",
+      "parent_account": "مدينون مختلفون - خارج الاستثمار"
+    },
+    {
+      "account_name": "حسابات التسوية",
+      "account_number": "47",
+      "is_group": 1,
+      "parent_account": "حسابات الذمم"
+    },
+    {
+      "account_name": "الأعباء الواجب توزيعها على عدة دورات",
+      "account_number": "471",
+      "is_group": 1,
+      "root_type": "Asset",
+      "parent_account": "حسابات التسوية"
+    },
+    {
+      "account_name": "أعباء ما قبل الاستثمار",
+      "account_number": "4711",
+      "is_group": 0,
+      "root_type": "Asset",
+      "parent_account": "الأعباء الواجب توزيعها على عدة دورات"
+    },
+    {
+      "account_name": "التصليحات الكبيرة الواجب استهلاكها",
+      "account_number": "4712",
+      "is_group": 0,
+      "root_type": "Asset",
+      "parent_account": "الأعباء الواجب توزيعها على عدة دورات"
+    },
+    {
+      "account_name": "علاوات تسديد السندات",
+      "account_number": "4713",
+      "is_group": 0,
+      "root_type": "Asset",
+      "parent_account": "الأعباء الواجب توزيعها على عدة دورات"
+    },
+    {
+      "account_name": "أعباء أخرى واجب توزيعها على عدة دورات مالية",
+      "account_number": "4719",
+      "is_group": 0,
+      "root_type": "Asset",
+      "parent_account": "الأعباء الواجب توزيعها على عدة دورات"
+    },
+    {
+      "account_name": "أعباء محتسبة مسبقاً",
+      "account_number": "472",
+      "is_group": 1,
+      "root_type": "Asset",
+      "parent_account": "حسابات التسوية"
+    },
+    {
+      "account_name": "إيرادات محتسبة مسبقاً",
+      "account_number": "473",
+      "is_group": 1,
+      "root_type": "Liability",
+      "parent_account": "حسابات التسوية"
+    },
+    {
+      "account_name": "فروقات صرف - خصوم",
+      "account_number": "475",
+      "is_group": 1,
+      "root_type": "Liability",
+      "parent_account": "حسابات التسوية"
+    },
+    {
+      "account_name": "الزيادة في الذمم المدينة",
+      "account_number": "4751",
+      "is_group": 0,
+      "root_type": "Liability",
+      "parent_account": "فروقات صرف - خصوم"
+    },
+    {
+      "account_name": "التدني في الذمم الدائنة",
+      "account_number": "4752",
+      "is_group": 0,
+      "root_type": "Liability",
+      "parent_account": "فروقات صرف - خصوم"
+    },
+    {
+      "account_name": "فروقات معوضة بفرق الصرف",
+      "account_number": "4758",
+      "is_group": 0,
+      "root_type": "Liability",
+      "parent_account": "فروقات صرف - خصوم"
+    },
+    {
+      "account_name": "فروقات صرف - أصول",
+      "account_number": "476",
+      "is_group": 1,
+      "root_type": "Asset",
+      "parent_account": "حسابات التسوية"
+    },
+    {
+      "account_name": "التدني في الذمم المدينة",
+      "account_number": "4761",
+      "is_group": 0,
+      "root_type": "Asset",
+      "parent_account": "فروقات صرف - أصول"
+    },
+    {
+      "account_name": "الزيادة في الذمم الدائنة",
+      "account_number": "4762",
+      "is_group": 0,
+      "root_type": "Asset",
+      "parent_account": "فروقات صرف - أصول"
+    },
+    {
+      "account_name": "فروقات معوضة بفرق الصرف",
+      "account_number": "4768",
+      "is_group": 0,
+      "root_type": "Asset",
+      "parent_account": "فروقات صرف - أصول"
+    },
+    {
+      "account_name": "الحسابات المؤقتة وقيد التسوية",
+      "account_number": "48",
+      "is_group": 1,
+      "root_type": "Liability",
+      "parent_account": "حسابات التسوية"
+    },
+    {
+      "account_name": "حسابات التوزيع الدوري للأعباء (اشتراكات)",
+      "account_number": "481",
+      "is_group": 1,
+      "root_type": "Liability",
+      "parent_account": "الحسابات المؤقتة وقيد التسوية"
+    },
+    {
+      "account_name": "حسابات التوزيع الدوري للإيرادات (اشتراكات)",
+      "account_number": "482",
+      "is_group": 1,
+      "root_type": "Liability",
+      "parent_account": "الحسابات المؤقتة وقيد التسوية"
+    },
+    {
+      "account_name": "فروقات تدوير افتتاحية",
+      "account_number": "483",
+      "is_group": 0,
+      "root_type": "Liability",
+      "account_type": "Round Off for Opening",
+      "parent_account": "الحسابات المؤقتة وقيد التسوية"
+    },
+    {
+      "account_name": "مؤونات لمواجهة هبوط قيم حسابات الذمم",
+      "account_number": "49",
+      "is_group": 1,
+      "root_type": "Liability",
+      "parent_account": "حسابات التسوية"
+    },
+    {
+      "account_name": "مؤونات هبوط قيم الذمم المدينة الزبائن",
+      "account_number": "491",
+      "is_group": 1,
+      "root_type": "Liability",
+      "parent_account": "حسابات التسوية"
+    },
+    {
+      "account_name": "مؤونات هبوط قيم حسابات الشركاء",
+      "account_number": "495",
+      "is_group": 1,
+      "root_type": "Liability",
+      "parent_account": "حسابات التسوية"
+    },
+    {
+      "account_name": "مؤونات هبوط قيم حسابات الذمم المدينة المختلفة",
+      "account_number": "496",
+      "is_group": 1,
+      "root_type": "Liability",
+      "parent_account": "حسابات التسوية"
+    },
+    {
+      "account_name": "مدينون مختلفون - للاستثمار",
+      "account_number": "4968",
+      "is_group": 0,
+      "root_type": "Liability",
+      "parent_account": "مؤونات هبوط قيم حسابات الذمم المدينة المختلفة"
+    },
+    {
+      "account_name": "مدينون مختلفون - خارج الاستثمار",
+      "account_number": "4969",
+      "is_group": 0,
+      "root_type": "Liability",
+      "parent_account": "مؤونات هبوط قيم حسابات الذمم المدينة المختلفة"
+    },
+    {
+      "account_name": "سندات توظيف",
+      "account_number": "50",
+      "is_group": 1,
+      "root_type": "Asset",
+      "parent_account": "الحسابات المالية"
+    },
+    {
+      "account_name": "أسهم صادرة عن الشركة ومعاد شراؤها",
+      "account_number": "501",
+      "is_group": 0,
+      "root_type": "Asset",
+      "parent_account": "سندات توظيف"
+    },
+    {
+      "account_name": "سندات تمنح حامليها حق الملكية",
+      "account_number": "502",
+      "is_group": 0,
+      "root_type": "Asset",
+      "parent_account": "سندات توظيف"
+    },
+    {
+      "account_name": "سندات دين وقسائم صادرة عن الشركة",
+      "account_number": "505",
+      "is_group": 0,
+      "root_type": "Asset",
+      "parent_account": "سندات توظيف"
+    },
+    {
+      "account_name": "سندات تمنح حامليها حقوق الدائنين",
+      "account_number": "506",
+      "is_group": 0,
+      "root_type": "Asset",
+      "parent_account": "سندات توظيف"
+    },
+    {
+      "account_name": "المؤسسات المالية",
+      "account_number": "51",
+      "is_group": 1,
+      "root_type": "Asset",
+      "parent_account": "الحسابات المالية"
+    },
+    {
+      "account_name": "شيكات وقسائم برسم القبض",
+      "account_number": "511",
+      "is_group": 1,
+      "root_type": "Asset",
+      "account_type": "Bank",
+      "parent_account": "المؤسسات المالية"
+    },
+    {
+      "account_name": "بنوك",
+      "account_number": "512",
+      "is_group": 1,
+      "root_type": "Asset",
+      "account_type": "Bank",
+      "parent_account": "المؤسسات المالية"
+    },
+    {
+      "account_name": "حساب البنك - 1",
+      "account_number": "51201",
+      "is_group": 0,
+      "root_type": "Asset",
+      "account_type": "Bank",
+      "parent_account": "المؤسسات المالية"
+    },
+    {
+      "account_name": "مؤسسات التمويل",
+      "account_number": "519",
+      "is_group": 1,
+      "root_type": "Asset",
+      "parent_account": "المؤسسات المالية"
+    },
+    {
+      "account_name": "الصندوق",
+      "account_number": "53",
+      "is_group": 1,
+      "root_type": "Asset",
+      "parent_account": "الحسابات المالية"
+    },
+    {
+      "account_name": "الخزنة الرئيسية",
+      "account_number": "531",
+      "is_group": 0,
+      "root_type": "Asset",
+      "account_type": "Cash",
+      "parent_account": "الصندوق"
+    },
+    {
+      "account_name": "التحويلات الداخلية",
+      "account_number": "58",
+      "is_group": 0,
+      "root_type": "Asset",
+      "parent_account": "الحسابات المالية"
+    },
+    {
+      "account_name": "مؤونات هبوط أسعار سندات التوظيف",
+      "account_number": "59",
+      "is_group": 0,
+      "root_type": "Asset",
+      "parent_account": "الحسابات المالية"
+    },
+    {
+      "account_name": "مشتريات البضاعة وقيمة التغيير في المخزون",
+      "account_number": "60",
+      "is_group": 1,
+      "root_type": "Expense",
+      "parent_account": "الأعباء"
+    },
+    {
+      "account_name": "مشتريات البضاعة",
+      "account_number": "601",
+      "is_group": 1,
+      "root_type": "Expense",
+      "parent_account": "مشتريات البضاعة وقيمة التغيير في المخزون"
+    },
+    {
+      "account_name": "البضاعة",
+      "account_number": "6011",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "مشتريات البضاعة"
+    },
+    {
+      "account_name": "العبوات",
+      "account_number": "6012",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "مشتريات البضاعة"
+    },
+    {
+      "account_name": "نفقات إضافية على شراء البضائع والعبوات",
+      "account_number": "6018",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "مشتريات البضاعة"
+    },
+    {
+      "account_name": "نقليات",
+      "account_number": "60181",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "مشتريات البضاعة"
+    },
+    {
+      "account_name": "سمسرة وعمولات",
+      "account_number": "60182",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "مشتريات البضاعة"
+    },
+    {
+      "account_name": "تأمين على الشحن",
+      "account_number": "60183",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "مشتريات البضاعة"
+    },
+    {
+      "account_name": "أتعاب مخلصي البضاعة",
+      "account_number": "60184",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "مشتريات البضاعة"
+    },
+    {
+      "account_name": "رسوم جمركية",
+      "account_number": "60185",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "مشتريات البضاعة"
+    },
+    {
+      "account_name": "حسومات مكتسبة",
+      "account_number": "6019",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "مشتريات البضاعة"
+    },
+    {
+      "account_name": "قيمة التغيير في مخزون البضاعة",
+      "account_number": "605",
+      "is_group": 1,
+      "root_type": "Expense",
+      "parent_account": "مشتريات البضاعة وقيمة التغيير في المخزون"
+    },
+    {
+      "account_name": "مخزون أول المدة",
+      "account_number": "6051",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "قيمة التغيير في مخزون البضاعة"
+    },
+    {
+      "account_name": "مخزون آخر المدة",
+      "account_number": "6052",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "قيمة التغيير في مخزون البضاعة"
+    },
+    {
+      "account_name": "مواد أولية واستهلاكية مستخدمة",
+      "account_number": "61",
+      "is_group": 1,
+      "root_type": "Expense",
+      "parent_account": "الأعباء"
+    },
+    {
+      "account_name": "مشتريات المواد الأولية والاستهلاكية",
+      "account_number": "611",
+      "is_group": 1,
+      "root_type": "Expense",
+      "parent_account": "مواد أولية واستهلاكية مستخدمة"
+    },
+    {
+      "account_name": "شراء مواد أولية",
+      "account_number": "6111",
+      "is_group": 1,
+      "root_type": "Expense",
+      "parent_account": "مشتريات المواد الأولية والاستهلاكية"
+    },
+    {
+      "account_name": "مواد أولية أ",
+      "account_number": "61111",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "شراء مواد أولية"
+    },
+    {
+      "account_name": "مواد أولية ب",
+      "account_number": "61112",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "شراء مواد أولية"
+    },
+    {
+      "account_name": "مواد ولوازم استهلاكية",
+      "account_number": "6112",
+      "is_group": 1,
+      "root_type": "Expense",
+      "parent_account": "مشتريات المواد الأولية والاستهلاكية"
+    },
+    {
+      "account_name": "محروقات",
+      "account_number": "61121",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "مواد ولوازم استهلاكية"
+    },
+    {
+      "account_name": "مواد الصيانة",
+      "account_number": "61122",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "مواد ولوازم استهلاكية"
+    },
+    {
+      "account_name": "لوازم للمشغل والمصنع",
+      "account_number": "61123",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "مواد ولوازم استهلاكية"
+    },
+    {
+      "account_name": "لوازم للمخزن",
+      "account_number": "61124",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "مواد ولوازم استهلاكية"
+    },
+    {
+      "account_name": "لوازم مكتبية",
+      "account_number": "61125",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "مواد ولوازم استهلاكية"
+    },
+    {
+      "account_name": "شراء عبوات",
+      "account_number": "6113",
+      "is_group": 1,
+      "root_type": "Expense",
+      "parent_account": "مشتريات المواد الأولية والاستهلاكية"
+    },
+    {
+      "account_name": "عبوات لا تُسترد",
+      "account_number": "61131",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "شراء عبوات"
+    },
+    {
+      "account_name": "عبوات تُسترد ويُعاد استعمالها",
+      "account_number": "61132",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "شراء عبوات"
+    },
+    {
+      "account_name": "عبوات تستعمل على أوجه مختلفة",
+      "account_number": "61133",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "شراء عبوات"
+    },
+    {
+      "account_name": "مصاريف إضافية على شراء مواد أولية واستهلاكية",
+      "account_number": "6118",
+      "is_group": 1,
+      "root_type": "Expense",
+      "parent_account": "مشتريات المواد الأولية والاستهلاكية"
+    },
+    {
+      "account_name": "نقليات",
+      "account_number": "61181",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "مصاريف إضافية على شراء مواد أولية واستهلاكية"
+    },
+    {
+      "account_name": "سمسرة وعمولات",
+      "account_number": "61182",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "مصاريف إضافية على شراء مواد أولية واستهلاكية"
+    },
+    {
+      "account_name": "تأمين على الشحن",
+      "account_number": "61183",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "مصاريف إضافية على شراء مواد أولية واستهلاكية"
+    },
+    {
+      "account_name": "أتعاب مخلصي البضاعة",
+      "account_number": "61184",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "مصاريف إضافية على شراء مواد أولية واستهلاكية"
+    },
+    {
+      "account_name": "رسوم جمركية",
+      "account_number": "61185",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "مصاريف إضافية على شراء مواد أولية واستهلاكية"
+    },
+    {
+      "account_name": "حسومات مكتسبة",
+      "account_number": "6119",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "مشتريات المواد الأولية والاستهلاكية"
+    },
+    {
+      "account_name": "قيمة التغيير في مخزون المواد الأولية والاستهلاكية",
+      "account_number": "615",
+      "is_group": 1,
+      "root_type": "Expense",
+      "parent_account": "مواد أولية واستهلاكية مستخدمة"
+    },
+    {
+      "account_name": "مخزون أول المدة",
+      "account_number": "6151",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "قيمة التغيير في مخزون المواد الأولية والاستهلاكية"
+    },
+    {
+      "account_name": "مخزون أول المدة",
+      "account_number": "6152",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "قيمة التغيير في مخزون المواد الأولية والاستهلاكية"
+    },
+    {
+      "account_name": "أعباء خارجية أخرى",
+      "account_number": "62",
+      "is_group": 1,
+      "root_type": "Expense",
+      "parent_account": "الأعباء"
+    },
+    {
+      "account_name": "مشتريات من ملتزمين ثانويين",
+      "account_number": "621",
+      "is_group": 1,
+      "root_type": "Expense",
+      "parent_account": "أعباء خارجية أخرى"
+    },
+    {
+      "account_name": "ملتزم ثانوي أ",
+      "account_number": "6211",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "مشتريات من ملتزمين ثانويين"
+    },
+    {
+      "account_name": "ملتزم ثانوي ب",
+      "account_number": "6212",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "مشتريات من ملتزمين ثانويين"
+    },
+    {
+      "account_name": "حسومات مكتسبة على مشتريات من ملتزمين ثانويين",
+      "account_number": "6219",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "مشتريات من ملتزمين ثانويين"
+    },
+    {
+      "account_name": "الإتاوى",
+      "account_number": "625",
+      "is_group": 1,
+      "root_type": "Expense",
+      "parent_account": "أعباء خارجية أخرى"
+    },
+    {
+      "account_name": "إيجار - قرض أموال منقولة",
+      "account_number": "6251",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "الإتاوى"
+    },
+    {
+      "account_name": "إيجار - قرض أموال غير منقولة",
+      "account_number": "6252",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "الإتاوى"
+    },
+    {
+      "account_name": "حقوق الامتياز",
+      "account_number": "6253",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "الإتاوى"
+    },
+    {
+      "account_name": "براءات",
+      "account_number": "6254",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "الإتاوى"
+    },
+    {
+      "account_name": "إجازات",
+      "account_number": "6255",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "الإتاوى"
+    },
+    {
+      "account_name": "علامات",
+      "account_number": "6256",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "الإتاوى"
+    },
+    {
+      "account_name": "أساليب",
+      "account_number": "6257",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "الإتاوى"
+    },
+    {
+      "account_name": "حقوق وقيم مماثلة",
+      "account_number": "6258",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "الإتاوى"
+    },
+    {
+      "account_name": "الخدمات الخارجية",
+      "account_number": "626",
+      "is_group": 1,
+      "root_type": "Expense",
+      "parent_account": "أعباء خارجية أخرى"
+    },
+    {
+      "account_name": "نقليات واتصالات",
+      "account_number": "6261",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "الخدمات الخارجية"
+    },
+    {
+      "account_name": "نفقات نقل للموجودات",
+      "account_number": "62611",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "الخدمات الخارجية"
+    },
+    {
+      "account_name": "نفقات النقل المشترك للمستخدمين",
+      "account_number": "62612",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "الخدمات الخارجية"
+    },
+    {
+      "account_name": "نفقات البريد والاتصالات السلكية واللاسلكية",
+      "account_number": "62615",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "الخدمات الخارجية"
+    },
+    {
+      "account_name": "الصيانة والتصليحات",
+      "account_number": "6262",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "الخدمات الخارجية"
+    },
+    {
+      "account_name": "الإيجارات (خدمات الأبنية)",
+      "account_number": "6263",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "الخدمات الخارجية"
+    },
+    {
+      "account_name": "الإيجارات",
+      "account_number": "62631",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "الخدمات الخارجية"
+    },
+    {
+      "account_name": "أعباء تأجيرية أخرى",
+      "account_number": "62632",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "الخدمات الخارجية"
+    },
+    {
+      "account_name": "خدمات الفنادق والمطاعم",
+      "account_number": "6264",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "الخدمات الخارجية"
+    },
+    {
+      "account_name": "تشريفات",
+      "account_number": "62641",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "الخدمات الخارجية"
+    },
+    {
+      "account_name": "نقل وانتقال",
+      "account_number": "62642",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "الخدمات الخارجية"
+    },
+    {
+      "account_name": "إطعام المستخدمين",
+      "account_number": "62643",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "الخدمات الخارجية"
+    },
+    {
+      "account_name": "خدمات المستخدمين",
+      "account_number": "6265",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "الخدمات الخارجية"
+    },
+    {
+      "account_name": "المستخدمون المؤقتون",
+      "account_number": "62651",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "الخدمات الخارجية"
+    },
+    {
+      "account_name": "أجور الوسطاء",
+      "account_number": "62652",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "الخدمات الخارجية"
+    },
+    {
+      "account_name": "بدلات أتعاب",
+      "account_number": "62653",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "الخدمات الخارجية"
+    },
+    {
+      "account_name": "خدمات تعليمية",
+      "account_number": "6266",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "الخدمات الخارجية"
+    },
+    {
+      "account_name": "الإعداد والتدريب",
+      "account_number": "62661",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "الخدمات الخارجية"
+    },
+    {
+      "account_name": "التوثيق",
+      "account_number": "62662",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "الخدمات الخارجية"
+    },
+    {
+      "account_name": "الدراسات والبحوث",
+      "account_number": "6267",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "الخدمات الخارجية"
+    },
+    {
+      "account_name": "أقساط التأمين",
+      "account_number": "6268",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "الخدمات الخارجية"
+    },
+    {
+      "account_name": "خدمات خارجية أخرى",
+      "account_number": "6269",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "الخدمات الخارجية"
+    },
+    {
+      "account_name": "خدمات صحية",
+      "account_number": "62691",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "الخدمات الخارجية"
+    },
+    {
+      "account_name": "خدمات مالية (مصارف على سندات وأوراق مالية)",
+      "account_number": "62692",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "الخدمات الخارجية"
+    },
+    {
+      "account_name": "أعباء المستخدمين",
+      "account_number": "63",
+      "is_group": 1,
+      "root_type": "Expense",
+      "parent_account": "الأعباء"
+    },
+    {
+      "account_name": "رواتب وأجور المستخدمين",
+      "account_number": "631",
+      "is_group": 1,
+      "root_type": "Expense",
+      "parent_account": "أعباء المستخدمين"
+    },
+    {
+      "account_name": "الرواتب",
+      "account_number": "6311",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "رواتب وأجور المستخدمين"
+    },
+    {
+      "account_name": "الأجور",
+      "account_number": "6312",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "رواتب وأجور المستخدمين"
+    },
+    {
+      "account_name": "العمولات الثابتة",
+      "account_number": "6314",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "رواتب وأجور المستخدمين"
+    },
+    {
+      "account_name": "بدلات للمديرين ذوي الأغلبية",
+      "account_number": "6316",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "رواتب وأجور المستخدمين"
+    },
+    {
+      "account_name": "بدلات أعضاء مجلس الإدارة",
+      "account_number": "6317",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "رواتب وأجور المستخدمين"
+    },
+    {
+      "account_name": "أعباء اجتماعية (ضمان اجتماعي...)",
+      "account_number": "635",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "أعباء المستخدمين"
+    },
+    {
+      "account_name": "ضرائب ورسوم ومدفوعات مماثلة",
+      "account_number": "64",
+      "is_group": 1,
+      "root_type": "Expense",
+      "parent_account": "الأعباء"
+    },
+    {
+      "account_name": "على الرواتب والأجور وبدلات الأتعاب",
+      "account_number": "641",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "ضرائب ورسوم ومدفوعات مماثلة"
+    },
+    {
+      "account_name": "ضرائب ورسوم للبلديات",
+      "account_number": "642",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "ضرائب ورسوم ومدفوعات مماثلة"
+    },
+    {
+      "account_name": "ضرائب على المبيعات غير قابلة للاسترداد",
+      "account_number": "643",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "ضرائب ورسوم ومدفوعات مماثلة"
+    },
+    {
+      "account_name": "رسوم التسجيل",
+      "account_number": "644",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "ضرائب ورسوم ومدفوعات مماثلة"
+    },
+    {
+      "account_name": "ضرائب ورسوم ومدفوعات مماثلة أخرى",
+      "account_number": "645",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "ضرائب ورسوم ومدفوعات مماثلة"
+    },
+    {
+      "account_name": "مخصصات الاستهلاكات والمؤونات للاستثمار",
+      "account_number": "65",
+      "is_group": 1,
+      "root_type": "Expense",
+      "parent_account": "الأعباء"
+    },
+    {
+      "account_name": "مخصصات الاستهلاكات",
+      "account_number": "651",
+      "is_group": 1,
+      "root_type": "Expense",
+      "parent_account": "مخصصات الاستهلاكات والمؤونات للاستثمار"
+    },
+    {
+      "account_name": "أصول ثابتة غير مادية",
+      "account_number": "6511",
+      "is_group": 0,
+      "root_type": "Expense",
+      "account_type": "Depreciation",
+      "parent_account": "مخصصات الاستهلاكات"
+    },
+    {
+      "account_name": "أصول ثابتة مادية",
+      "account_number": "6512",
+      "is_group": 0,
+      "root_type": "Expense",
+      "account_type": "Depreciation",
+      "parent_account": "مخصصات الاستهلاكات"
+    },
+    {
+      "account_name": "أعباء للتوزيع على عدة دورات",
+      "account_number": "6515",
+      "is_group": 0,
+      "root_type": "Expense",
+      "account_type": "Depreciation",
+      "parent_account": "مخصصات الاستهلاكات"
+    },
+    {
+      "account_name": "مخصصات المؤونة",
+      "account_number": "655",
+      "is_group": 1,
+      "root_type": "Expense",
+      "parent_account": "مخصصات الاستهلاكات والمؤونات للاستثمار"
+    },
+    {
+      "account_name": "مؤونات هبوط أسعار الأصول الثابتة غير المادية",
+      "account_number": "6551",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "مخصصات المؤونة"
+    },
+    {
+      "account_name": "مؤونات هبوط أسعار الأصول الثابتة المادية",
+      "account_number": "6552",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "مخصصات المؤونة"
+    },
+    {
+      "account_name": "مؤونات هبوط أسعار المخزون وقيد الصنع",
+      "account_number": "6553",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "مخصصات المؤونة"
+    },
+    {
+      "account_name": "مؤونات هبوط قيم الذمم المدينة",
+      "account_number": "6554",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "مخصصات المؤونة"
+    },
+    {
+      "account_name": "مؤونات لمواجهة المخاطر والأعباء العائدة للاستثمار",
+      "account_number": "6555",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "مخصصات المؤونة"
+    },
+    {
+      "account_name": "أعباء إدارية عادية أخرى",
+      "account_number": "66",
+      "is_group": 1,
+      "root_type": "Expense",
+      "parent_account": "الأعباء"
+    },
+    {
+      "account_name": "أعباء إدارية أخرى",
+      "account_number": "661",
+      "is_group": 1,
+      "root_type": "Expense",
+      "parent_account": "أعباء إدارية عادية أخرى"
+    },
+    {
+      "account_name": "بدلات الحضور",
+      "account_number": "6611",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "أعباء إدارية أخرى"
+    },
+    {
+      "account_name": "خسارة على ذمم الاستثمار المدينة التي ثبت هلاكها",
+      "account_number": "6612",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "أعباء إدارية أخرى"
+    },
+    {
+      "account_name": "فروقات تقريب",
+      "account_number": "6618",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "أعباء إدارية أخرى"
+    },
+    {
+      "account_name": "شطب و الغاء",
+      "account_number": "6619",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "أعباء إدارية أخرى"
+    },
+    {
+      "account_name": "حصة المؤسسة من الخسائر على عمليات مشتركة",
+      "account_number": "665",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "أعباء إدارية عادية أخرى"
+    },
+    {
+      "account_name": "الأعباء المالية",
+      "account_number": "67",
+      "is_group": 1,
+      "root_type": "Expense",
+      "parent_account": "الأعباء"
+    },
+    {
+      "account_name": "فوائد وأعباء مشابهة",
+      "account_number": "673",
+      "is_group": 1,
+      "root_type": "Expense",
+      "parent_account": "الأعباء المالية"
+    },
+    {
+      "account_name": "فوائد على الذمم الدائنة والقروض",
+      "account_number": "6731",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "فوائد وأعباء مشابهة"
+    },
+    {
+      "account_name": "فوائد على الحسابات الجارية والودائع الدائنة",
+      "account_number": "6732",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "فوائد وأعباء مشابهة"
+    },
+    {
+      "account_name": "فوائد السندات المربوطة بكفالات",
+      "account_number": "6733",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "فوائد وأعباء مشابهة"
+    },
+    {
+      "account_name": "فوائد الذمم الدائنة الأخرى",
+      "account_number": "6734",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "فوائد وأعباء مشابهة"
+    },
+    {
+      "account_name": "الخصم الممنوح من المؤسسة",
+      "account_number": "6735",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "فوائد وأعباء مشابهة"
+    },
+    {
+      "account_name": "فوائد مصرفية وفوائد على عمليات التمويل",
+      "account_number": "6736",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "فوائد وأعباء مشابهة"
+    },
+    {
+      "account_name": "فروقات صرف سلبية",
+      "account_number": "675",
+      "is_group": 1,
+      "root_type": "Expense",
+      "parent_account": "الأعباء المالية"
+    },
+    {
+      "account_name": "فروقات على عمليات جارية",
+      "account_number": "6751",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "فروقات صرف سلبية"
+    },
+    {
+      "account_name": "فروقات على عمليات رأسمالية",
+      "account_number": "6752",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "فروقات صرف سلبية"
+    },
+    {
+      "account_name": "أعباء صافية على عمليات التفرغ عن سندات توظيف",
+      "account_number": "676",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "الأعباء المالية"
+    },
+    {
+      "account_name": "مخصصات الاستهلاكات والمؤونات المالية",
+      "account_number": "679",
+      "is_group": 1,
+      "root_type": "Expense",
+      "parent_account": "الأعباء المالية"
+    },
+    {
+      "account_name": "استهلاك علاوات التسديد",
+      "account_number": "6791",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "مخصصات الاستهلاكات والمؤونات المالية"
+    },
+    {
+      "account_name": "مؤونات هبوط أسعار الأصول الثابتة المالية",
+      "account_number": "6792",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "مخصصات الاستهلاكات والمؤونات المالية"
+    },
+    {
+      "account_name": "مؤونات هبوط أسعار سندات التوظيف",
+      "account_number": "6794",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "مخصصات الاستهلاكات والمؤونات المالية"
+    },
+    {
+      "account_name": "مؤونات لمواجهة المخاطر والأعباء المالية",
+      "account_number": "6795",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "مخصصات الاستهلاكات والمؤونات المالية"
+    },
+    {
+      "account_name": "أعباء خارج الاستثمار",
+      "account_number": "68",
+      "is_group": 1,
+      "root_type": "Expense",
+      "parent_account": "الأعباء"
+    },
+    {
+      "account_name": "القيمة الدفترية للأصول الثابتة المتفرغ عنها",
+      "account_number": "681",
+      "is_group": 1,
+      "root_type": "Expense",
+      "parent_account": "أعباء خارج الاستثمار"
+    },
+    {
+      "account_name": "أصول ثابتة غير مادية",
+      "account_number": "6811",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "القيمة الدفترية للأصول الثابتة المتفرغ عنها"
+    },
+    {
+      "account_name": "أصول ثابتة مادية",
+      "account_number": "6812",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "القيمة الدفترية للأصول الثابتة المتفرغ عنها"
+    },
+    {
+      "account_name": "أصول ثابتة مالية",
+      "account_number": "6815",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "القيمة الدفترية للأصول الثابتة المتفرغ عنها"
+    },
+    {
+      "account_name": "أعباء أخرى خارج الاستثمار",
+      "account_number": "685",
+      "is_group": 1,
+      "root_type": "Expense",
+      "parent_account": "أعباء خارج الاستثمار"
+    },
+    {
+      "account_name": "أعباء على عمليات إدارة المؤسسة",
+      "account_number": "6851",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "أعباء أخرى خارج الاستثمار"
+    },
+    {
+      "account_name": "هبات",
+      "account_number": "68511",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "أعباء أخرى خارج الاستثمار"
+    },
+    {
+      "account_name": "إعانات ممنوحة",
+      "account_number": "68512",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "أعباء أخرى خارج الاستثمار"
+    },
+    {
+      "account_name": "غرامات ضريبية وجزائية",
+      "account_number": "68513",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "أعباء أخرى خارج الاستثمار"
+    },
+    {
+      "account_name": "غرامات على صفقات",
+      "account_number": "68514",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "أعباء أخرى خارج الاستثمار"
+    },
+    {
+      "account_name": "ذمم مدينة أصبحت هالكة",
+      "account_number": "68515",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "أعباء أخرى خارج الاستثمار"
+    },
+    {
+      "account_name": "عمليات إدارية أخرى",
+      "account_number": "68516",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "أعباء أخرى خارج الاستثمار"
+    },
+    {
+      "account_name": "أعباء على عمليات رأسمالية",
+      "account_number": "6855",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "أعباء أخرى خارج الاستثمار"
+    },
+    {
+      "account_name": "أعباء ناتجة عن موجب تطبيق مؤشر أسعار",
+      "account_number": "68551",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "أعباء أخرى خارج الاستثمار"
+    },
+    {
+      "account_name": "جوائز تسديد",
+      "account_number": "68552",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "أعباء أخرى خارج الاستثمار"
+    },
+    {
+      "account_name": "أعباء ناتجة عن استرداد المؤسسة لأسهم وسندات صادرة عنها",
+      "account_number": "68553",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "أعباء أخرى خارج الاستثمار"
+    },
+    {
+      "account_name": "مخصصات الاستهلاكات والمؤونات خارج الاستثمار",
+      "account_number": "689",
+      "is_group": 1,
+      "root_type": "Expense",
+      "parent_account": "أعباء خارج الاستثمار"
+    },
+    {
+      "account_name": "استهلاك استثنائي على أصول ثابتة",
+      "account_number": "6891",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "مخصصات الاستهلاكات والمؤونات خارج الاستثمار"
+    },
+    {
+      "account_name": "مؤونات هبوط أسعار استثنائي",
+      "account_number": "6892",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "مخصصات الاستهلاكات والمؤونات خارج الاستثمار"
+    },
+    {
+      "account_name": "مؤونات لمواجهة مخاطر وأعباء خارج الاستثمار",
+      "account_number": "6895",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "مخصصات الاستهلاكات والمؤونات خارج الاستثمار"
+    },
+    {
+      "account_name": "الضرائب على الأرباح",
+      "account_number": "69",
+      "is_group": 0,
+      "root_type": "Expense",
+      "parent_account": "أعباء خارج الاستثمار"
+    },
+    {
+      "account_name": "مبيعات البضاعة",
+      "account_number": "70",
+      "is_group": 1,
+      "root_type": "Income",
+      "parent_account": "الإيرادات"
+    },
+    {
+      "account_name": "فواتير",
+      "account_number": "701",
+      "is_group": 0,
+      "root_type": "Income",
+      "parent_account": "مبيعات البضاعة"
+    },
+    {
+      "account_name": "حسومات ممنوحة",
+      "account_number": "709",
+      "is_group": 0,
+      "root_type": "Income",
+      "parent_account": "مبيعات البضاعة"
+    },
+    {
+      "account_name": "المنتجات المباعة",
+      "account_number": "71",
+      "is_group": 1,
+      "root_type": "Income",
+      "parent_account": "الإيرادات"
+    },
+    {
+      "account_name": "مبيعات",
+      "account_number": "711",
+      "is_group": 1,
+      "root_type": "Income",
+      "parent_account": "المنتجات المباعة"
+    },
+    {
+      "account_name": "مبيعات المنتجات التامة الصنع",
+      "account_number": "7111",
+      "is_group": 0,
+      "root_type": "Income",
+      "parent_account": "مبيعات"
+    },
+    {
+      "account_name": "مبيعات المنتجات الوسيطة",
+      "account_number": "7112",
+      "is_group": 0,
+      "root_type": "Income",
+      "parent_account": "مبيعات"
+    },
+    {
+      "account_name": "مبيعات فضلات الإنتاج",
+      "account_number": "7113",
+      "is_group": 0,
+      "root_type": "Income",
+      "parent_account": "مبيعات"
+    },
+    {
+      "account_name": "أشغال",
+      "account_number": "712",
+      "is_group": 0,
+      "root_type": "Income",
+      "parent_account": "المنتجات المباعة"
+    },
+    {
+      "account_name": "خدمات",
+      "account_number": "713",
+      "is_group": 0,
+      "root_type": "Income",
+      "parent_account": "المنتجات المباعة"
+    },
+    {
+      "account_name": "إيرادات النشاطات الفرعية",
+      "account_number": "717",
+      "is_group": 0,
+      "root_type": "Income",
+      "parent_account": "المنتجات المباعة"
+    },
+    {
+      "account_name": "حسومات ممنوحة",
+      "account_number": "719",
+      "is_group": 1,
+      "root_type": "Income",
+      "parent_account": "المنتجات المباعة"
+    },
+    {
+      "account_name": "على بيع المنتجات",
+      "account_number": "7191",
+      "is_group": 0,
+      "root_type": "Income",
+      "parent_account": "حسومات ممنوحة"
+    },
+    {
+      "account_name": "على بيع الأشغال",
+      "account_number": "7192",
+      "is_group": 0,
+      "root_type": "Income",
+      "parent_account": "حسومات ممنوحة"
+    },
+    {
+      "account_name": "على بيع الخدمات",
+      "account_number": "7193",
+      "is_group": 0,
+      "root_type": "Income",
+      "parent_account": "حسومات ممنوحة"
+    },
+    {
+      "account_name": "على بيع نشاطات فرعية",
+      "account_number": "7197",
+      "is_group": 0,
+      "root_type": "Income",
+      "parent_account": "حسومات ممنوحة"
+    },
+    {
+      "account_name": "الإنتاج المخزون (قيمة التغيير)",
+      "account_number": "72",
+      "is_group": 1,
+      "root_type": "Income",
+      "parent_account": "الإيرادات"
+    },
+    {
+      "account_name": "قيد الصنع (أموال)",
+      "account_number": "721",
+      "is_group": 1,
+      "root_type": "Income",
+      "parent_account": "الإنتاج المخزون (قيمة التغيير)"
+    },
+    {
+      "account_name": "منتجات قيد الصنع",
+      "account_number": "7211",
+      "is_group": 0,
+      "root_type": "Income",
+      "parent_account": "قيد الصنع (أموال)"
+    },
+    {
+      "account_name": "أشغال قيد التنفيذ",
+      "account_number": "7212",
+      "is_group": 0,
+      "root_type": "Income",
+      "parent_account": "قيد الصنع (أموال)"
+    },
+    {
+      "account_name": "قيد الصنع (خدمات)",
+      "account_number": "722",
+      "is_group": 1,
+      "root_type": "Income",
+      "parent_account": "الإنتاج المخزون (قيمة التغيير)"
+    },
+    {
+      "account_name": "دراسات قيد الإعداد",
+      "account_number": "7225",
+      "is_group": 0,
+      "root_type": "Income",
+      "parent_account": "قيد الصنع (خدمات)"
+    },
+    {
+      "account_name": "خدمات قيد التنفيذ",
+      "account_number": "7226",
+      "is_group": 0,
+      "root_type": "Income",
+      "parent_account": "قيد الصنع (خدمات)"
+    },
+    {
+      "account_name": "منتجات",
+      "account_number": "725",
+      "is_group": 1,
+      "root_type": "Income",
+      "parent_account": "الإنتاج المخزون (قيمة التغيير)"
+    },
+    {
+      "account_name": "منتجات وسيطة",
+      "account_number": "7251",
+      "is_group": 0,
+      "root_type": "Income",
+      "parent_account": "منتجات"
+    },
+    {
+      "account_name": "منتجات تامة الصنع",
+      "account_number": "7255",
+      "is_group": 0,
+      "root_type": "Income",
+      "parent_account": "منتجات"
+    },
+    {
+      "account_name": "فضلات الإنتاج",
+      "account_number": "7258",
+      "is_group": 0,
+      "root_type": "Income",
+      "parent_account": "منتجات"
+    },
+    {
+      "account_name": "منتجات لها طابع الأصول الثابتة",
+      "account_number": "73",
+      "is_group": 1,
+      "root_type": "Income",
+      "parent_account": "الإيرادات"
+    },
+    {
+      "account_name": "أصول ثابتة غير مادية",
+      "account_number": "731",
+      "is_group": 0,
+      "root_type": "Income",
+      "parent_account": "منتجات لها طابع الأصول الثابتة"
+    },
+    {
+      "account_name": "أصول ثابتة مادية",
+      "account_number": "732",
+      "is_group": 0,
+      "root_type": "Income",
+      "parent_account": "منتجات لها طابع الأصول الثابتة"
+    },
+    {
+      "account_name": "إعانات للاستثمار",
+      "account_number": "74",
+      "is_group": 1,
+      "root_type": "Income",
+      "parent_account": "الإيرادات"
+    },
+    {
+      "account_name": "للبضائع",
+      "account_number": "741",
+      "is_group": 0,
+      "root_type": "Income",
+      "parent_account": "إعانات للاستثمار"
+    },
+    {
+      "account_name": "للإنتاج",
+      "account_number": "742",
+      "is_group": 0,
+      "root_type": "Income",
+      "parent_account": "إعانات للاستثمار"
+    },
+    {
+      "account_name": "استردادات من المؤونات للاستثمار",
+      "account_number": "75",
+      "is_group": 1,
+      "root_type": "Income",
+      "parent_account": "الإيرادات"
+    },
+    {
+      "account_name": "استردادات من مؤونات هبوط أسعار الأصول الثابتة",
+      "account_number": "752",
+      "is_group": 0,
+      "root_type": "Income",
+      "parent_account": "استردادات من المؤونات للاستثمار"
+    },
+    {
+      "account_name": "استردادات من مؤونات هبوط الأسعار الأصول المتداولة",
+      "account_number": "753",
+      "is_group": 0,
+      "root_type": "Income",
+      "parent_account": "استردادات من المؤونات للاستثمار"
+    },
+    {
+      "account_name": "إيرادات أخرى ناتجة عن الاستثمار",
+      "account_number": "76",
+      "is_group": 1,
+      "root_type": "Income",
+      "parent_account": "الإيرادات"
+    },
+    {
+      "account_name": "إيرادات عادية أخرى",
+      "account_number": "761",
+      "is_group": 1,
+      "root_type": "Income",
+      "parent_account": "إيرادات أخرى ناتجة عن الاستثمار"
+    },
+    {
+      "account_name": "إتاوى الامتيازات، البراءات، الإجازات، العلامات والأساليب والحقوق والقيم المماثلة",
+      "account_number": "7611",
+      "is_group": 0,
+      "root_type": "Income",
+      "parent_account": "إيرادات عادية أخرى"
+    },
+    {
+      "account_name": "إيرادات الأبنية غير المخصصة للنشاط المهني",
+      "account_number": "7612",
+      "is_group": 0,
+      "root_type": "Income",
+      "parent_account": "إيرادات عادية أخرى"
+    },
+    {
+      "account_name": "بدلات حضور وتعويضات أعضاء مجلس الإدارة والمديرين",
+      "account_number": "7613",
+      "is_group": 0,
+      "root_type": "Income",
+      "parent_account": "إيرادات عادية أخرى"
+    },
+    {
+      "account_name": "أعباء استثمار محولة إلى حسابات أخرى",
+      "account_number": "7619",
+      "is_group": 0,
+      "root_type": "Income",
+      "parent_account": "إيرادات عادية أخرى"
+    },
+    {
+      "account_name": "حصص أرباح العمليات المشتركة",
+      "account_number": "765",
+      "is_group": 1,
+      "root_type": "Income",
+      "parent_account": "إيرادات أخرى ناتجة عن الاستثمار"
+    },
+    {
+      "account_name": "حصص الأعباء الصافية التي جرى تحويلها",
+      "account_number": "7651",
+      "is_group": 0,
+      "root_type": "Income",
+      "parent_account": "حصص أرباح العمليات المشتركة"
+    },
+    {
+      "account_name": "حصص الإيرادات الصافية المقررة",
+      "account_number": "7655",
+      "is_group": 0,
+      "root_type": "Income",
+      "parent_account": "حصص أرباح العمليات المشتركة"
+    },
+    {
+      "account_name": "الإيرادات المالية",
+      "account_number": "77",
+      "is_group": 1,
+      "root_type": "Income",
+      "parent_account": "الإيرادات"
+    },
+    {
+      "account_name": "إيرادات سندات المشاركة",
+      "account_number": "771",
+      "is_group": 1,
+      "root_type": "Income",
+      "parent_account": "الإيرادات المالية"
+    },
+    {
+      "account_name": "عائدات سندات التوظيف",
+      "account_number": "7711",
+      "is_group": 0,
+      "root_type": "Income",
+      "parent_account": "إيرادات سندات المشاركة"
+    },
+    {
+      "account_name": "عائدات المشاركات الأخرى",
+      "account_number": "7716",
+      "is_group": 0,
+      "root_type": "Income",
+      "parent_account": "إيرادات سندات المشاركة"
+    },
+    {
+      "account_name": "عائدات الذمم المدينة المرتبطة بمشاركات",
+      "account_number": "7717",
+      "is_group": 0,
+      "root_type": "Income",
+      "parent_account": "إيرادات سندات المشاركة"
+    },
+    {
+      "account_name": "إيرادات القيم المنقولة الأخرى",
+      "account_number": "772",
+      "is_group": 1,
+      "root_type": "Income",
+      "parent_account": "الإيرادات المالية"
+    },
+    {
+      "account_name": "عائدات سندات التوظيف",
+      "account_number": "7721",
+      "is_group": 0,
+      "root_type": "Income",
+      "parent_account": "إيرادات القيم المنقولة الأخرى"
+    },
+    {
+      "account_name": "عائدات السندات المجمدة",
+      "account_number": "7723",
+      "is_group": 0,
+      "root_type": "Income",
+      "parent_account": "إيرادات القيم المنقولة الأخرى"
+    },
+    {
+      "account_name": "عائدات الذمم المدينة المجمدة",
+      "account_number": "7725",
+      "is_group": 0,
+      "root_type": "Income",
+      "parent_account": "إيرادات القيم المنقولة الأخرى"
+    },
+    {
+      "account_name": "عائدات الذمم المدينة التجارية",
+      "account_number": "7726",
+      "is_group": 0,
+      "root_type": "Income",
+      "parent_account": "إيرادات القيم المنقولة الأخرى"
+    },
+    {
+      "account_name": "عائدات الذمم المدينة المختلفة",
+      "account_number": "7727",
+      "is_group": 0,
+      "root_type": "Income",
+      "parent_account": "إيرادات القيم المنقولة الأخرى"
+    },
+    {
+      "account_name": "فوائد وإيرادات مشابهة",
+      "account_number": "773",
+      "is_group": 1,
+      "root_type": "Income",
+      "parent_account": "الإيرادات المالية"
+    },
+    {
+      "account_name": "عائدات القروض الممنوحة",
+      "account_number": "7731",
+      "is_group": 0,
+      "root_type": "Income",
+      "parent_account": "فوائد وإيرادات مشابهة"
+    },
+    {
+      "account_name": "الخصم الممنوح للمؤسسة",
+      "account_number": "7733",
+      "is_group": 0,
+      "root_type": "Income",
+      "parent_account": "فوائد وإيرادات مشابهة"
+    },
+    {
+      "account_name": "فروقات صرف إيجابية",
+      "account_number": "775",
+      "is_group": 1,
+      "root_type": "Income",
+      "parent_account": "الإيرادات المالية"
+    },
+    {
+      "account_name": "على عمليات جارية",
+      "account_number": "7751",
+      "is_group": 0,
+      "root_type": "Income",
+      "parent_account": "فروقات صرف إيجابية"
+    },
+    {
+      "account_name": "على عمليات رأسمالية",
+      "account_number": "7755",
+      "is_group": 0,
+      "root_type": "Income",
+      "parent_account": "فروقات صرف إيجابية"
+    },
+    {
+      "account_name": "إيرادات مالية أخرى",
+      "account_number": "778",
+      "is_group": 1,
+      "root_type": "Income",
+      "parent_account": "الإيرادات المالية"
+    },
+    {
+      "account_name": "إيرادات صافية على بيع سندات توظيف",
+      "account_number": "7781",
+      "is_group": 0,
+      "root_type": "Income",
+      "parent_account": "إيرادات مالية أخرى"
+    },
+    {
+      "account_name": "أعباء مالية محولة إلى حسابات أخرى",
+      "account_number": "7789",
+      "is_group": 0,
+      "root_type": "Income",
+      "parent_account": "إيرادات مالية أخرى"
+    },
+    {
+      "account_name": "استردادات من المؤونات المالية",
+      "account_number": "779",
+      "is_group": 1,
+      "root_type": "Income",
+      "parent_account": "الإيرادات المالية"
+    },
+    {
+      "account_name": "استردادات من مؤونات هبوط الأسعار",
+      "account_number": "7793",
+      "is_group": 0,
+      "root_type": "Income",
+      "parent_account": "استردادات من المؤونات المالية"
+    },
+    {
+      "account_name": "استردادات من مؤونات المخاطر والأعباء",
+      "account_number": "7795",
+      "is_group": 0,
+      "root_type": "Income",
+      "parent_account": "استردادات من المؤونات المالية"
+    },
+    {
+      "account_name": "إيرادات التفرغ عن أصول ثابتة",
+      "account_number": "78",
+      "is_group": 1,
+      "root_type": "Income",
+      "parent_account": "الإيرادات"
+    },
+    {
+      "account_name": "إيرادات التفرغ عن أصول ثابتة",
+      "account_number": "781",
+      "is_group": 1,
+      "root_type": "Income",
+      "parent_account": "إيرادات التفرغ عن أصول ثابتة"
+    },
+    {
+      "account_name": "أصول ثابتة غير مادية",
+      "account_number": "7811",
+      "is_group": 0,
+      "root_type": "Income",
+      "parent_account": "إيرادات التفرغ عن أصول ثابتة"
+    },
+    {
+      "account_name": "أصول ثابتة مادية",
+      "account_number": "7812",
+      "is_group": 0,
+      "root_type": "Income",
+      "parent_account": "إيرادات التفرغ عن أصول ثابتة"
+    },
+    {
+      "account_name": "أصول ثابتة مالية",
+      "account_number": "7815",
+      "is_group": 0,
+      "root_type": "Income",
+      "parent_account": "إيرادات التفرغ عن أصول ثابتة"
+    },
+    {
+      "account_name": "إعانات للتوظيفات محولة إلى نتيجة الدورة",
+      "account_number": "782",
+      "is_group": 1,
+      "root_type": "Income",
+      "parent_account": "إيرادات التفرغ عن أصول ثابتة"
+    },
+    {
+      "account_name": "إيرادات أخرى خارج الاستثمار",
+      "account_number": "788",
+      "is_group": 1,
+      "root_type": "Income",
+      "parent_account": "إيرادات التفرغ عن أصول ثابتة"
+    },
+    {
+      "account_name": "إيرادات استثنائية على عمليات عادية",
+      "account_number": "7881",
+      "is_group": 0,
+      "root_type": "Income",
+      "parent_account": "إيرادات أخرى خارج الاستثمار"
+    },
+    {
+      "account_name": "إيرادات أخرى على عمليات رأسمالية استثنائية",
+      "account_number": "7888",
+      "is_group": 0,
+      "root_type": "Income",
+      "parent_account": "إيرادات أخرى خارج الاستثمار"
+    },
+    {
+      "account_name": "أعباء استثنائية محولة إلى حسابات أخرى",
+      "account_number": "7889",
+      "is_group": 0,
+      "root_type": "Income",
+      "parent_account": "إيرادات أخرى خارج الاستثمار"
+    },
+    {
+      "account_name": "استردادات من المؤونات خارج الاستثمار",
+      "account_number": "789",
+      "is_group": 1,
+      "root_type": "Income",
+      "parent_account": "إيرادات التفرغ عن أصول ثابتة"
+    },
+    {
+      "account_name": "استردادات من مؤونات هبوط الأسعار",
+      "account_number": "7891",
+      "is_group": 0,
+      "root_type": "Income",
+      "parent_account": "استردادات من المؤونات خارج الاستثمار"
+    },
+    {
+      "account_name": "استردادات من مؤونات المخاطر والأعباء",
+      "account_number": "7895",
+      "is_group": 0,
+      "root_type": "Income",
+      "parent_account": "استردادات من المؤونات خارج الاستثمار"
+    }
+  ]
+}
